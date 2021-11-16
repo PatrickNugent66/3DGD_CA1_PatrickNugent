@@ -15,11 +15,11 @@ E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55567
+60570
 Successfully changed project path to: E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002185 seconds.
+Registered in 0.001999 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.219 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1200ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (1220ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004381 seconds.
+Registered in 0.004313 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
+- Completed reload, in  1.379 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (1380ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1090ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1123ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (390ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (401ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (233ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (238ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.1 MB.
-System memory in use after: 123.3 MB.
+System memory in use before: 123.4 MB.
+System memory in use after: 123.6 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3141.
-Total: 3.637300 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.115700 ms MarkObjects: 3.173900 ms  DeleteObjects: 0.096000 ms)
+Total: 3.559900 ms (FindLiveObjects: 0.248700 ms CreateObjectMapping: 0.115800 ms MarkObjects: 3.072800 ms  DeleteObjects: 0.121200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,25 +131,977 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ThirdParty/Nimikko_Shoutengai
-  artifactKey: Guid(32ef1fa6e2cbc874f9ee026d6006ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Nimikko_Shoutengai using Guid(32ef1fa6e2cbc874f9ee026d6006ff26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9983db05cc360d101b0efd8168363f') in 0.011094 seconds 
-  Import took 0.015682 seconds .
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat
+  artifactKey: Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat using Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578b65a718a1eaac4638915693bfbef2') in 0.305277 seconds 
+  Import took 0.310082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 170.178735 seconds.
-  path: Assets/AE_Japan_Auto
-  artifactKey: Guid(9aa32bee25770a043b1c1ab672c708d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AE_Japan_Auto using Guid(9aa32bee25770a043b1c1ab672c708d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d435a816e36c36623de51d02b471df2') in 0.008946 seconds 
-  Import took 0.014944 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat
+  artifactKey: Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat using Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57979263a848ac37f1e1a5c12f9f855b') in 0.087891 seconds 
+  Import took 0.095399 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.335923 seconds.
-  path: Assets/AE_Japan_Auto/Auto.asset
-  artifactKey: Guid(c55ccd6a4f110e6479cc04afc766f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AE_Japan_Auto/Auto.asset using Guid(c55ccd6a4f110e6479cc04afc766f748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3f0bc3be69b55640e168ec50d677df') in 0.040263 seconds 
-  Import took 0.045047 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat
+  artifactKey: Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat using Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be83f512fc59410314bdde2b408693c') in 0.033425 seconds 
+  Import took 0.038739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat
+  artifactKey: Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat using Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41578ab6a3cde5b2f027559d365a2c6c') in 0.027952 seconds 
+  Import took 0.033418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat
+  artifactKey: Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat using Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f4579f718de8c6b24efc55b41cb643') in 0.028021 seconds 
+  Import took 0.033292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat
+  artifactKey: Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat using Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc5aa05f304c02b184ac9aacb461ba8') in 0.026155 seconds 
+  Import took 0.031341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat
+  artifactKey: Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat using Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a790c4e9ef364e976293f2c16e137210') in 0.025725 seconds 
+  Import took 0.030881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat
+  artifactKey: Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat using Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c682719ed4f4c51251decfb0df2eea6') in 0.023333 seconds 
+  Import took 0.028944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat
+  artifactKey: Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat using Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bae2eec6aa000de4ded8d868ad86539') in 0.026600 seconds 
+  Import took 0.031859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat
+  artifactKey: Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat using Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80869d8b53863f67870dae9264f6ad7') in 0.024807 seconds 
+  Import took 0.030688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat
+  artifactKey: Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat using Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5631361b82c26104140864a97609ad59') in 0.021050 seconds 
+  Import took 0.026626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat
+  artifactKey: Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat using Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d07108504ab038d852c4984eacf612d') in 0.025281 seconds 
+  Import took 0.030951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat
+  artifactKey: Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat using Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26567a8878bb35c58d9989f3261ef3a0') in 0.053088 seconds 
+  Import took 0.060769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.616734 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat
+  artifactKey: Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat using Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab30afe43bb665cc5f425230e439175') in 0.017938 seconds 
+  Import took 0.023441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat
+  artifactKey: Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat using Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90a5ad1538aa79e4590341cbb5c3f75') in 0.031774 seconds 
+  Import took 0.038057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lamps_01.mat
+  artifactKey: Guid(2d6dd65f903650a44b8a311915e81767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lamps_01.mat using Guid(2d6dd65f903650a44b8a311915e81767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9520cb613eaf32075fdd791737a4e586') in 0.027423 seconds 
+  Import took 0.032368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_02.mat
+  artifactKey: Guid(ddcc6b1726a267c4b8caedb6a59ff209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_02.mat using Guid(ddcc6b1726a267c4b8caedb6a59ff209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3f8975bc539cf7c9c4251b23e34212') in 0.027058 seconds 
+  Import took 0.032250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat
+  artifactKey: Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat using Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c6439aad1ee6635b73e46bee0b9acf') in 0.036724 seconds 
+  Import took 0.041971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat
+  artifactKey: Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat using Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c6e56fc17a3b2730106dd8843a03af') in 0.064492 seconds 
+  Import took 0.073054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plastic_01.mat
+  artifactKey: Guid(3a622032555263e4290b7ca909a37a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plastic_01.mat using Guid(3a622032555263e4290b7ca909a37a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c535df5604e585a6da55476617992') in 0.028391 seconds 
+  Import took 0.034281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_01.mat
+  artifactKey: Guid(4c064c7ea1bea7a4bbfe406402afd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_01.mat using Guid(4c064c7ea1bea7a4bbfe406402afd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7dedcd0ee9bf87f451cb08c2ff4a64') in 0.019830 seconds 
+  Import took 0.025850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_01.mat
+  artifactKey: Guid(374eb24925831d24d9b8be92a9a4c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_01.mat using Guid(374eb24925831d24d9b8be92a9a4c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd213c779ec8c0131dff7055e74dcd80') in 0.026854 seconds 
+  Import took 0.034128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat
+  artifactKey: Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat using Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e19f36791fa4a07df4b4ee5f8357f9') in 0.026370 seconds 
+  Import took 0.032633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat
+  artifactKey: Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat using Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860db040c50364d40b351c24c17531e2') in 0.029719 seconds 
+  Import took 0.039980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat
+  artifactKey: Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat using Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b59bd1e89965a4bcb1e4eec7f38496') in 0.024037 seconds 
+  Import took 0.030807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass.mat
+  artifactKey: Guid(66fdcc74947cc3c44a20763c34d88cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass.mat using Guid(66fdcc74947cc3c44a20763c34d88cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7492cc609e979ef1062c9bffaac354b4') in 0.013338 seconds 
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat
+  artifactKey: Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat using Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c701592937a8bbdd8cadfd34ec4c3123') in 0.025100 seconds 
+  Import took 0.030720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Wood_01.mat
+  artifactKey: Guid(e94960ae223f1e0499d8d389f4ae700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Wood_01.mat using Guid(e94960ae223f1e0499d8d389f4ae700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf29fff31b876240c070535e709f1446') in 0.024272 seconds 
+  Import took 0.029625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Fudousan.mat
+  artifactKey: Guid(cb8b67603a543654c9f9f1bf7b391eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Fudousan.mat using Guid(cb8b67603a543654c9f9f1bf7b391eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf76cd9c4f621bc8e7f8c7f28230684f') in 0.015154 seconds 
+  Import took 0.021193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat
+  artifactKey: Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat using Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032bd02f81f79c0411cbd76ca8331e6') in 0.025364 seconds 
+  Import took 0.031994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat
+  artifactKey: Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat using Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e1f44b2070830b8b97f8fe7c2fb3cb') in 0.022919 seconds 
+  Import took 0.028557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_02.mat
+  artifactKey: Guid(f9883151b9b6eea429dba9fd8e02dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_02.mat using Guid(f9883151b9b6eea429dba9fd8e02dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e3bfd70c6c94fda0f662c05bf937a7') in 0.031542 seconds 
+  Import took 0.037767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_200_Frames.mat
+  artifactKey: Guid(24a0dab86a713c544ad7c80bf5cb6420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_200_Frames.mat using Guid(24a0dab86a713c544ad7c80bf5cb6420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7879bd6e062d4769c0b458e6c9270d35') in 0.038969 seconds 
+  Import took 0.047114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass_Solid.mat
+  artifactKey: Guid(915719a3e0d6e444f85873f879445913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass_Solid.mat using Guid(915719a3e0d6e444f85873f879445913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf3d1b928c65d4b2b97141a101b778b') in 0.012764 seconds 
+  Import took 0.017504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat
+  artifactKey: Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat using Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b5d58aed802d80735ef8c7e3d3152a') in 0.025913 seconds 
+  Import took 0.032672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat
+  artifactKey: Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat using Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c6de201bdcc31e6c41952520dbc7cb') in 0.026507 seconds 
+  Import took 0.032049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Ebisudoori.mat
+  artifactKey: Guid(56ea95e5a11fabc4c8e6cc1684662362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Ebisudoori.mat using Guid(56ea95e5a11fabc4c8e6cc1684662362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfabe4c044afc63baee55f59a07743ab') in 0.014606 seconds 
+  Import took 0.020216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Standsign_01.mat
+  artifactKey: Guid(086039a006443d446bcab57e9c0ed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Standsign_01.mat using Guid(086039a006443d446bcab57e9c0ed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c57acc9ab3de7a744a85025571fba') in 0.026865 seconds 
+  Import took 0.033131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat
+  artifactKey: Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat using Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd37705c333073d6205e307a0bea042') in 0.024723 seconds 
+  Import took 0.030487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_TilesRound_01.mat
+  artifactKey: Guid(398861d27838c274db2a7f3fe1d3f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_TilesRound_01.mat using Guid(398861d27838c274db2a7f3fe1d3f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef59db8daa7868d73e0294a88a22d54c') in 0.021707 seconds 
+  Import took 0.027127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat
+  artifactKey: Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat using Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c024f839393b7d133ba73a874e23f3e4') in 0.036218 seconds 
+  Import took 0.042238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStand_01.mat
+  artifactKey: Guid(090e88832fb4ac948b56b0e96c8b9808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStand_01.mat using Guid(090e88832fb4ac948b56b0e96c8b9808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbb11a754be064d4993e0a39a8ef423') in 0.030012 seconds 
+  Import took 0.035685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Sign_01.mat
+  artifactKey: Guid(567ddd72b6cbc9e4b8e8e82c8a2c6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Sign_01.mat using Guid(567ddd72b6cbc9e4b8e8e82c8a2c6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b64fc4c19c95412c63d5fd818755fec') in 0.016793 seconds 
+  Import took 0.021777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat
+  artifactKey: Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat using Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2bcd1db10e697ab5032456bf7a2e9a') in 0.030597 seconds 
+  Import took 0.035499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/MI_Ceilinglight_01_Off 1.mat
+  artifactKey: Guid(9e50d4499a4dac4488393ef15aaa9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/MI_Ceilinglight_01_Off 1.mat using Guid(9e50d4499a4dac4488393ef15aaa9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c956824b81e0248acca0a9ee2c02fec5') in 0.021136 seconds 
+  Import took 0.025923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_02.mat
+  artifactKey: Guid(7eaf1716ec1d821458c56870039364bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_02.mat using Guid(7eaf1716ec1d821458c56870039364bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfefa1d9192dc3b49e3667772f761f2') in 0.026660 seconds 
+  Import took 0.032367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Metal_01.mat
+  artifactKey: Guid(603853ac97dacf240a3523d17bcc547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Metal_01.mat using Guid(603853ac97dacf240a3523d17bcc547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a064255c5e24613082c65a1af5372ee2') in 0.013794 seconds 
+  Import took 0.019449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat
+  artifactKey: Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat using Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45126f4fdd01be5ae4430daaa1f2a958') in 0.026701 seconds 
+  Import took 0.032530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat
+  artifactKey: Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat using Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ee20b8d118e148014ea781656e2d8f') in 0.072161 seconds 
+  Import took 0.080385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_03.mat
+  artifactKey: Guid(68e8f1dfebe24a34e8c6f2a97ed0d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_03.mat using Guid(68e8f1dfebe24a34e8c6f2a97ed0d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c357cfa24bfdf992ced66da2e60894') in 0.026880 seconds 
+  Import took 0.032423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.432229 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai.unity
+  artifactKey: Guid(76bdeaa9a51bf7d44a474c117cc072b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai.unity using Guid(76bdeaa9a51bf7d44a474c117cc072b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eacb6ae45fd52da8bd1ae19ff3f7e0e') in 0.002698 seconds 
+  Import took 0.010293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.144971 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat
+  artifactKey: Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/AFudousan 1.mat using Guid(e51dfbdb74ca6bb49b0be20546e7962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeacd2653697b6f161bd41c4e1a46dd') in 0.017814 seconds 
+  Import took 0.023403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat
+  artifactKey: Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_Frames.mat using Guid(0f2e7d9100a7ddf42b845e5c7223049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4483f43822ec1df9777df6ce326d20') in 0.025505 seconds 
+  Import took 0.047139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lamps_01.mat
+  artifactKey: Guid(2d6dd65f903650a44b8a311915e81767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lamps_01.mat using Guid(2d6dd65f903650a44b8a311915e81767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cca3ae29d222f845fd63c7af3a5892') in 0.031847 seconds 
+  Import took 0.037144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_02.mat
+  artifactKey: Guid(ddcc6b1726a267c4b8caedb6a59ff209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_02.mat using Guid(ddcc6b1726a267c4b8caedb6a59ff209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d7f56e1de54b01ac098ff8c389b3a2') in 0.027896 seconds 
+  Import took 0.034012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat
+  artifactKey: Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat using Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd48ecace20e9209b3f495a93e8dec5') in 0.031705 seconds 
+  Import took 0.037506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat
+  artifactKey: Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01.mat using Guid(01efc1e5a16afab4590fe2fcb3456ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ba4a791bb2e3325f8448ee150f3a2b') in 0.063684 seconds 
+  Import took 0.072311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plastic_01.mat
+  artifactKey: Guid(3a622032555263e4290b7ca909a37a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plastic_01.mat using Guid(3a622032555263e4290b7ca909a37a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ecad833a14f5ffaff5d72e3f565c5') in 0.031926 seconds 
+  Import took 0.037658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_01.mat
+  artifactKey: Guid(4c064c7ea1bea7a4bbfe406402afd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_01.mat using Guid(4c064c7ea1bea7a4bbfe406402afd1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5949e497062db636180fc1957f16f8b2') in 0.026959 seconds 
+  Import took 0.036270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_01.mat
+  artifactKey: Guid(374eb24925831d24d9b8be92a9a4c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Storesign_01.mat using Guid(374eb24925831d24d9b8be92a9a4c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a017034d9338635a0b3e11187772e1') in 0.028218 seconds 
+  Import took 0.034541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat
+  artifactKey: Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Shutter_01.mat using Guid(fdfc54ae05d0f4b40b6070f1b43f371c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd02a2c02edbd5637b4076fba570ee0') in 0.027181 seconds 
+  Import took 0.033339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat
+  artifactKey: Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_01.mat using Guid(9dfa3ad92bf2a6944baf8f4af92ba2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5339366a3aca205fb2badef30860e68b') in 0.027797 seconds 
+  Import took 0.051533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat
+  artifactKey: Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Pillar_01.mat using Guid(9a611433678c5204a88a00d44966568e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d09ee0f1caded99eded02cb4d23ce9') in 0.028670 seconds 
+  Import took 0.033788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass.mat
+  artifactKey: Guid(66fdcc74947cc3c44a20763c34d88cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass.mat using Guid(66fdcc74947cc3c44a20763c34d88cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971a5181bc26a6ada909ffd6428ee3df') in 0.016380 seconds 
+  Import took 0.021482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat
+  artifactKey: Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat using Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d102ec69b53da6c360dec5181b331') in 0.031155 seconds 
+  Import took 0.037619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Wood_01.mat
+  artifactKey: Guid(e94960ae223f1e0499d8d389f4ae700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Wood_01.mat using Guid(e94960ae223f1e0499d8d389f4ae700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2f5a25b152bf6282583011f0659be7') in 0.031692 seconds 
+  Import took 0.037414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Fudousan.mat
+  artifactKey: Guid(cb8b67603a543654c9f9f1bf7b391eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Fudousan.mat using Guid(cb8b67603a543654c9f9f1bf7b391eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ea9d3a07ddb7ec89e483898fd1c58e') in 0.019093 seconds 
+  Import took 0.025532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat
+  artifactKey: Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_DecoBricks_01.mat using Guid(ae023a46644447a4288e16677adf36a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3124b33a60aa5674d3fee76b31085c35') in 0.028981 seconds 
+  Import took 0.108925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat
+  artifactKey: Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_02.mat using Guid(e8a62e2204a13964ebdee7608a7f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515a5e4ba1b63e18f77752a2403a3577') in 0.034593 seconds 
+  Import took 0.040193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_02.mat
+  artifactKey: Guid(f9883151b9b6eea429dba9fd8e02dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Lantern_02.mat using Guid(f9883151b9b6eea429dba9fd8e02dc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ff3e31c7871cc58715cb0969fed4ae') in 0.027436 seconds 
+  Import took 0.033296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_200_Frames.mat
+  artifactKey: Guid(24a0dab86a713c544ad7c80bf5cb6420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Door_200_Frames.mat using Guid(24a0dab86a713c544ad7c80bf5cb6420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11a25d2a21ba91703288638a60ef15c') in 0.027886 seconds 
+  Import took 0.033460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass_Solid.mat
+  artifactKey: Guid(915719a3e0d6e444f85873f879445913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Glass_Solid.mat using Guid(915719a3e0d6e444f85873f879445913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0930c877825625176f59a48cc18dd8c') in 0.014658 seconds 
+  Import took 0.019832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat
+  artifactKey: Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerHolderBase_01.mat using Guid(2f18853f438b24245a634905c86963a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c9da9f55fef570706756e558f9ff4f') in 0.026260 seconds 
+  Import took 0.031926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat
+  artifactKey: Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01.mat using Guid(445eb393fe413894aa859109bc91c7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e753c0175c9c18cd7c15d10ee02f19fb') in 0.029851 seconds 
+  Import took 0.035198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Ebisudoori.mat
+  artifactKey: Guid(56ea95e5a11fabc4c8e6cc1684662362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Ebisudoori.mat using Guid(56ea95e5a11fabc4c8e6cc1684662362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ab3f37aa1172f51b8a269dbfc8da3') in 0.015386 seconds 
+  Import took 0.021015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Standsign_01.mat
+  artifactKey: Guid(086039a006443d446bcab57e9c0ed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Standsign_01.mat using Guid(086039a006443d446bcab57e9c0ed310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e73ae07bc609d155f82f359289b751') in 0.026828 seconds 
+  Import took 0.033065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat
+  artifactKey: Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat using Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549bea11d042aa2e51804f5feef56407') in 0.029211 seconds 
+  Import took 0.034909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_TilesRound_01.mat
+  artifactKey: Guid(398861d27838c274db2a7f3fe1d3f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_TilesRound_01.mat using Guid(398861d27838c274db2a7f3fe1d3f66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9dc0417c4287a20c4e5f38424f4d8f') in 0.031490 seconds 
+  Import took 0.037024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat
+  artifactKey: Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStanding_03.mat using Guid(79fda9734dec7e74cb94ab28c0e18ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed2fd636b4eb0023cc0cd98c782ae0f') in 0.027722 seconds 
+  Import took 0.033309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStand_01.mat
+  artifactKey: Guid(090e88832fb4ac948b56b0e96c8b9808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_BannerStand_01.mat using Guid(090e88832fb4ac948b56b0e96c8b9808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e377bdf920515ae63c31a40d93925c68') in 0.029027 seconds 
+  Import took 0.034619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Sign_01.mat
+  artifactKey: Guid(567ddd72b6cbc9e4b8e8e82c8a2c6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Surface_Sign_01.mat using Guid(567ddd72b6cbc9e4b8e8e82c8a2c6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8685044c55a61b696f426a97389dff32') in 0.016866 seconds 
+  Import took 0.022165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat
+  artifactKey: Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Side.mat using Guid(510e132893f48c74eb9e98b0b9ab22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edff98f618fd537e58669d18e54bb763') in 0.030238 seconds 
+  Import took 0.036321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/MI_Ceilinglight_01_Off 1.mat
+  artifactKey: Guid(9e50d4499a4dac4488393ef15aaa9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/MI_Ceilinglight_01_Off 1.mat using Guid(9e50d4499a4dac4488393ef15aaa9adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89941b2a6307cfb2bba48dc134df5abe') in 0.024195 seconds 
+  Import took 0.029684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_02.mat
+  artifactKey: Guid(7eaf1716ec1d821458c56870039364bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_02.mat using Guid(7eaf1716ec1d821458c56870039364bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759e521ae391020b1ee2fa2549ef7ca') in 0.027727 seconds 
+  Import took 0.034460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Metal_01.mat
+  artifactKey: Guid(603853ac97dacf240a3523d17bcc547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Metal_01.mat using Guid(603853ac97dacf240a3523d17bcc547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32d3fb9cbed42311918611c7ef4f2f') in 0.018083 seconds 
+  Import took 0.024212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat
+  artifactKey: Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat using Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5cd7b273d9c439f61dfe4940c764eb') in 0.026921 seconds 
+  Import took 0.032461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat
+  artifactKey: Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Cover_01_Front.mat using Guid(a42e2af17585f7647ab3bf5e3b6adebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d4d31cdf345750db3da302c0dd6302') in 0.063685 seconds 
+  Import took 0.071696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_03.mat
+  artifactKey: Guid(68e8f1dfebe24a34e8c6f2a97ed0d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_03.mat using Guid(68e8f1dfebe24a34e8c6f2a97ed0d7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46be7cd6887a4b8f63bcde5f372181e7') in 0.027050 seconds 
+  Import took 0.032447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.809507 seconds.
+  path: Assets/Nimikko_Shoutengai
+  artifactKey: Guid(c6408a8d739a91147aab58340b336043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nimikko_Shoutengai using Guid(c6408a8d739a91147aab58340b336043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913cdd839dba70fa6508addb40bd52c') in 0.007029 seconds 
+  Import took 0.011976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.404237 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai.unity
+  artifactKey: Guid(76bdeaa9a51bf7d44a474c117cc072b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai.unity using Guid(76bdeaa9a51bf7d44a474c117cc072b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d7c2439dd5d91b7cc189353f11c543') in 0.002584 seconds 
+  Import took 0.007364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.492452 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai_Unity.prefab
+  artifactKey: Guid(442c2577e1716b24b8f1b8f253a8616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Scenes/Shoutengai_Unity.prefab using Guid(442c2577e1716b24b8f1b8f253a8616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d231d57f913310538883360dfc8c1c2') in 0.531258 seconds 
+  Import took 0.568901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.413414 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Animate.mat
+  artifactKey: Guid(15ce8944a1e1ede4e90426f878c43a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Animate.mat using Guid(15ce8944a1e1ede4e90426f878c43a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acc407910c5ca4deabd80af1b82cb39') in 0.017953 seconds 
+  Import took 0.023254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Hakuri.mat
+  artifactKey: Guid(678ffbf926431e24b8ef219b4cc4f877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Hakuri.mat using Guid(678ffbf926431e24b8ef219b4cc4f877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdfe175bdf679ab372f0f0dd0add91e') in 0.017690 seconds 
+  Import took 0.037754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Karaoke.mat
+  artifactKey: Guid(fed8fdfb1fc4ad04b8e249e42c38c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Karaoke.mat using Guid(fed8fdfb1fc4ad04b8e249e42c38c1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa33d8c579a7a4fb4d120ab4d82b32ab') in 0.042562 seconds 
+  Import took 0.046855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yakisoba.mat
+  artifactKey: Guid(7cfea5ab72370b546819db6f324097c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yakisoba.mat using Guid(7cfea5ab72370b546819db6f324097c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb37ae338eb868b1e5e5be0a09c8ec4') in 0.015772 seconds 
+  Import took 0.020034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yamamoto.mat
+  artifactKey: Guid(6ccb1c5af175c514ba47b69cd8f39d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yamamoto.mat using Guid(6ccb1c5af175c514ba47b69cd8f39d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e26a944b8728b93db566b3080f1bc2') in 0.033546 seconds 
+  Import took 0.038586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Michirou.mat
+  artifactKey: Guid(0b176ccf810e69e458650e4799c32491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Michirou.mat using Guid(0b176ccf810e69e458650e4799c32491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd524e7eea85aeb3d1b2381970ffb4122') in 0.015394 seconds 
+  Import took 0.020910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Oosaburo.mat
+  artifactKey: Guid(41b160e11a04f584186378878afde05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Oosaburo.mat using Guid(41b160e11a04f584186378878afde05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c0b8337981e88caf71394bb81125d') in 0.014175 seconds 
+  Import took 0.020159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Mitsukoshi.mat
+  artifactKey: Guid(729784c3a2189a248b476cc466c1272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Mitsukoshi.mat using Guid(729784c3a2189a248b476cc466c1272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6165ff10c23b9e1a75b1275ed5b80a') in 0.015506 seconds 
+  Import took 0.040691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Michiroudou.mat
+  artifactKey: Guid(e0ca39914db4e6c40976fafea548cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Michiroudou.mat using Guid(e0ca39914db4e6c40976fafea548cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c416e6d927b4f063be82db4da3e73c49') in 0.015366 seconds 
+  Import took 0.021651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Matsuda.mat
+  artifactKey: Guid(eb08f200054a29b43b51f0b2f0ff7c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Matsuda.mat using Guid(eb08f200054a29b43b51f0b2f0ff7c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc26051962b25b15b444312c9c45dee') in 0.017533 seconds 
+  Import took 0.022647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Yamamoto.mat
+  artifactKey: Guid(b1a5a1ab610f4144fb10e5fde0242331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Yamamoto.mat using Guid(b1a5a1ab610f4144fb10e5fde0242331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d2e18e00a332503652a5d3a0ddfb33') in 0.015985 seconds 
+  Import took 0.020618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Matsuda.mat
+  artifactKey: Guid(f70bfd4391d0140489b9687c26bdbd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Matsuda.mat using Guid(f70bfd4391d0140489b9687c26bdbd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c85d6b46fa3e10ad66bdb79be9fa26') in 0.015152 seconds 
+  Import took 0.020296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Karaoke.mat
+  artifactKey: Guid(e2baf7936f154754fbb128b9da7bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Karaoke.mat using Guid(e2baf7936f154754fbb128b9da7bc2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d93b3deea3702a0d317e88f788507b0') in 0.016630 seconds 
+  Import took 0.022181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Animate 1.mat
+  artifactKey: Guid(38a119ef3cd7ab346b39814bd3bfe044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Animate 1.mat using Guid(38a119ef3cd7ab346b39814bd3bfe044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c24d6f92ef7a18f0c32ee7aafa98f5') in 0.015352 seconds 
+  Import took 0.019983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Mitsukoshi.mat
+  artifactKey: Guid(6e81b05db8953e8408212ca89434ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Mitsukoshi.mat using Guid(6e81b05db8953e8408212ca89434ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b617f1fd5abc0b64384b1e27194a9edf') in 0.015166 seconds 
+  Import took 0.019919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yakimura.mat
+  artifactKey: Guid(3b0ac05ed25f0cc4baeb7cb27e26fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Yakimura.mat using Guid(3b0ac05ed25f0cc4baeb7cb27e26fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655bb83d22366b4211380871ecbe156c') in 0.021171 seconds 
+  Import took 0.026236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Michan.mat
+  artifactKey: Guid(91e42ae4e5765f849a53e49405386d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Michan.mat using Guid(91e42ae4e5765f849a53e49405386d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da1de964896e0bdeaada89bd511f0e1') in 0.014576 seconds 
+  Import took 0.042476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Oosaburo.mat
+  artifactKey: Guid(2df4a0242b3a12c41adad6127e717387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Oosaburo.mat using Guid(2df4a0242b3a12c41adad6127e717387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1990668e0c2aaad1961152212f1c0329') in 0.041185 seconds 
+  Import took 0.045433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Hakuri.mat
+  artifactKey: Guid(4dc16bb0681aee043bdd19bfd0303e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignHor_Hakuri.mat using Guid(4dc16bb0681aee043bdd19bfd0303e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726a79fdd44d276cff42f907f5e0d275') in 0.015427 seconds 
+  Import took 0.019832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Michan.mat
+  artifactKey: Guid(7980f60dddfafd649b68d30b04dc794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/Signs/M_SignVer_Michan.mat using Guid(7980f60dddfafd649b68d30b04dc794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76dc3057a08841245390e8b2cd76100') in 0.015629 seconds 
+  Import took 0.020464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 578.480307 seconds.
+  path: Assets/Materials/StoreNames.mat
+  artifactKey: Guid(7f55e7e1992e7e94aa29bfaa98b1f178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StoreNames.mat using Guid(7f55e7e1992e7e94aa29bfaa98b1f178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9dffdf83ed5cdea18b1a7508491d9d') in 0.033907 seconds 
+  Import took 0.039996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 689.950205 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Models/AE_Minivan_Street.fbx
+  artifactKey: Guid(3674500e628d3674d876b7980079b582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Models/AE_Minivan_Street.fbx using Guid(3674500e628d3674d876b7980079b582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a00c95f9b9160e36ef6288fe35ed16') in 1.040470 seconds 
+  Import took 1.049149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Road_Elements_01.mat
+  artifactKey: Guid(4dc505d1844616b4196fd1fc146b1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Road_Elements_01.mat using Guid(4dc505d1844616b4196fd1fc146b1c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc79ba5a73ee865e7bc2894eb967276') in 0.028335 seconds 
+  Import took 0.033856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Tream_Sheets_01.mat
+  artifactKey: Guid(b9a209116121a0841b34928b4306f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Tream_Sheets_01.mat using Guid(b9a209116121a0841b34928b4306f229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4e528abf6c6636a6a34a4f4136e3c8') in 0.427064 seconds 
+  Import took 0.432668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Glass.mat
+  artifactKey: Guid(62b9aab194c649545b59cfafcb2fb419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Glass.mat using Guid(62b9aab194c649545b59cfafcb2fb419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b1bcdbc11314060ff4de89214fe4e') in 0.021129 seconds 
+  Import took 0.025714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Wheel.mat
+  artifactKey: Guid(07ffd75f998153c449b9e2cec9a9c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Wheel.mat using Guid(07ffd75f998153c449b9e2cec9a9c432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e059557fe65caa015d9ba87b04ed494') in 0.036262 seconds 
+  Import took 0.042351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Road_Elements_02.mat
+  artifactKey: Guid(ef25cef8d6b629c41bc70eb4ea391c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Road_Elements_02.mat using Guid(ef25cef8d6b629c41bc70eb4ea391c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c825920554302e9ad0dbc3b11d30e') in 0.036462 seconds 
+  Import took 0.042439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Body.mat
+  artifactKey: Guid(a1dbaa49c842c9a43a922c4d6b5b81f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Minivan_Street_Body.mat using Guid(a1dbaa49c842c9a43a922c4d6b5b81f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7333e55dbb30354cc9ed30133814cd0a') in 0.033564 seconds 
+  Import took 0.039458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.494866 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Models/script.sh
+  artifactKey: Guid(4dcb42434e2d5b4418373b16ff7b19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Models/script.sh using Guid(4dcb42434e2d5b4418373b16ff7b19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4bdba3e053c4ef67d6e3ce080a9aa8') in 0.013961 seconds 
+  Import took 0.018828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1253.628474 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat
+  artifactKey: Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Plaster_01_Brown.mat using Guid(bb2a9d33dc7a77348a176520ce5e72fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93892edb4b7a474ad79d219bf5f1da95') in 0.037779 seconds 
+  Import took 0.044355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat
+  artifactKey: Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Terracotta_01.mat using Guid(32e6ccd8e92ebe147992e211941a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50bc8e4b45c9d43d657e5db0e0048ce') in 0.030811 seconds 
+  Import took 0.038038 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
