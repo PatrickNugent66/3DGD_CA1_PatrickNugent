@@ -15,11 +15,11 @@ E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60853
+56886
 Successfully changed project path to: E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002153 seconds.
+Registered in 0.001981 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
+- Completed reload, in  1.222 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (538ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (550ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (222ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
+				RefreshPlugins (79ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004272 seconds.
+Registered in 0.004383 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 80.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  1.385 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1400ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1386ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1142ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (1126ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (247ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (242ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2704 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 123.7 MB.
-System memory in use after: 123.9 MB.
+System memory in use before: 126.0 MB.
+System memory in use after: 126.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3142.
-Total: 4.214500 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.239500 ms MarkObjects: 3.548600 ms  DeleteObjects: 0.110300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 3.700900 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.115500 ms MarkObjects: 3.219000 ms  DeleteObjects: 0.099000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,127 +133,951 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat
   artifactKey: Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat using Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dda239ffe01732d474b7636fac2ac1') in 0.847342 seconds 
-  Import took 0.872442 seconds .
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_01.mat using Guid(0796a87882a60a346bc604724dc39caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aee6174778413a54f76d83f170521a') in 0.483594 seconds 
+  Import took 0.526837 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.342467 seconds.
+  Time since last request: 0.001359 seconds.
   path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_02.mat
   artifactKey: Guid(b118cd144daa11243afc63df2fbca76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_02.mat using Guid(b118cd144daa11243afc63df2fbca76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70b8231a138a4e4e25641b806fc2780') in 0.035021 seconds 
-  Import took 0.086288 seconds .
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_Bricks_02.mat using Guid(b118cd144daa11243afc63df2fbca76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88060ef0a4f28d5602c24319474a675') in 0.064298 seconds 
+  Import took 0.089534 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2906.938310 seconds.
-  path: Assets/Scenes/Residential street.unity
-  artifactKey: Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Residential street.unity using Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b7131caf25d9a319e6fdd822b465e9') in 0.015237 seconds 
-  Import took 0.099917 seconds .
+  Time since last request: 121.445581 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/URP_Japanese_Street_(Mobile).unitypackage
+  artifactKey: Guid(ab4ed1ab970fd18489b6e632a6d17a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/URP_Japanese_Street_(Mobile).unitypackage using Guid(ab4ed1ab970fd18489b6e632a6d17a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6922729d7a9f3fd0786347e0749e66b0') in 0.021494 seconds 
+  Import took 0.058368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.442641 seconds.
-  path: Assets/Scenes/Street.unity
-  artifactKey: Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Street.unity using Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa85aa57c4b783bc5a4db552a5c90d57') in 0.010668 seconds 
-  Import took 0.039368 seconds .
+  Time since last request: 2638.105629 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs
+  artifactKey: Guid(828ee44226647dc4a84b1157899c7697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs using Guid(828ee44226647dc4a84b1157899c7697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac2f24ec5d1ad86994cbd79b275de32') in 0.021327 seconds 
+  Import took 0.050705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 358.880478 seconds.
-  path: Assets/Japanese_Street_(Mobile)
-  artifactKey: Guid(d360d732a57aea049a505810ca92c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese_Street_(Mobile) using Guid(d360d732a57aea049a505810ca92c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0728d8a8cda568a6c5143b9abb50c5') in 0.009495 seconds 
-  Import took 0.027507 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Scooter_01.prefab
+  artifactKey: Guid(d6c9cf5f06ee3c14db0b8d5682e0e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Scooter_01.prefab using Guid(d6c9cf5f06ee3c14db0b8d5682e0e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa016567d7b781ba16d3f5815bfbc280') in 0.142632 seconds 
+  Import took 0.160772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.295534 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes
-  artifactKey: Guid(4263d74c89c7e0b41bafce2f68bcce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes using Guid(4263d74c89c7e0b41bafce2f68bcce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c954e595e13a3b9ceb816f76b93b60') in 0.009098 seconds 
-  Import took 0.014159 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_06.prefab
+  artifactKey: Guid(3ac1a8a2d38338a4bbeb321346574438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_06.prefab using Guid(3ac1a8a2d38338a4bbeb321346574438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6a78e1eac984ca3b4166a8f1660b5') in 0.030344 seconds 
+  Import took 0.050914 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033976 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/LODGroup.preset
-  artifactKey: Guid(fbe7c6f3abaf330419c49d9e61eeb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/LODGroup.preset using Guid(fbe7c6f3abaf330419c49d9e61eeb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08472495228fe445ce898aa327a4c31') in 0.023159 seconds 
-  Import took 0.043152 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_02.prefab
+  artifactKey: Guid(1d1aaf6a3df59e546b9d3fa9d11aaba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_02.prefab using Guid(1d1aaf6a3df59e546b9d3fa9d11aaba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a89724c247fb7fc5c9994fd51cede3') in 0.043230 seconds 
+  Import took 0.059311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/Post-processing Profile.asset
-  artifactKey: Guid(f61a36d404937314bbefbdd0351b5ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/Post-processing Profile.asset using Guid(f61a36d404937314bbefbdd0351b5ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b438ac038442c8a6f5e680e96426fa') in 0.014553 seconds 
-  Import took 0.018728 seconds .
+  Time since last request: 0.000307 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_09.prefab
+  artifactKey: Guid(3aac369710e675a468e05b01d7ca65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_09.prefab using Guid(3aac369710e675a468e05b01d7ca65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d1b6c4b0d56971725cc25d66e9c8e7') in 0.026970 seconds 
+  Import took 0.037830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.654020 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/Demo.unity
-  artifactKey: Guid(23a9ed02aa13cdb45b4c1d995c8071c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Scenes/Demo.unity using Guid(23a9ed02aa13cdb45b4c1d995c8071c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f06b836d46abf8ffb48f1ed17a35391') in 0.008212 seconds 
-  Import took 0.013332 seconds .
+  Time since last request: 0.000294 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_01.prefab
+  artifactKey: Guid(351db7895c7bfdd42a0566facd2f9508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_01.prefab using Guid(351db7895c7bfdd42a0566facd2f9508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a26ed390f6f86563f9211d05cff3cd') in 0.027815 seconds 
+  Import took 0.034491 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.391507 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials
-  artifactKey: Guid(e47c6e1a8e383034796d44a124fe70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials using Guid(e47c6e1a8e383034796d44a124fe70b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2e2837e7f570eb7b3f1c960b0ecf0f') in 0.007131 seconds 
-  Import took 0.050348 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_04.prefab
+  artifactKey: Guid(5156388c45a5a394dada0e40dcdd13b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_04.prefab using Guid(5156388c45a5a394dada0e40dcdd13b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c29c793b30a0b67d9a1e77f1dd1043e') in 0.026231 seconds 
+  Import took 0.043803 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Street.mat
-  artifactKey: Guid(cf3cac45e6d660449910fa37b89d198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Street.mat using Guid(cf3cac45e6d660449910fa37b89d198a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cb0364bf4971ef8b83ccb130088709') in 0.109850 seconds 
-  Import took 0.146541 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_03.prefab
+  artifactKey: Guid(c60c32dbb72c17e43972f98be8d10171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_03.prefab using Guid(c60c32dbb72c17e43972f98be8d10171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a09cbfdea581ed28fc0b86bcc11bdcd') in 0.026021 seconds 
+  Import took 0.032261 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Base.mat
-  artifactKey: Guid(d4cea8f9bf74613419f9f173195f213c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Base.mat using Guid(d4cea8f9bf74613419f9f173195f213c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df4d974b1605d18b954493a85468c57') in 0.022174 seconds 
-  Import took 0.027302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/House.mat
-  artifactKey: Guid(79a6814ce34eb894196bd3cc5748f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/House.mat using Guid(79a6814ce34eb894196bd3cc5748f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bffc59ecb5ab4ea013292fbf007fd1') in 0.027527 seconds 
-  Import took 0.033792 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_05.prefab
+  artifactKey: Guid(f53ddb67ed1e3b74195e86129c6b28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_05.prefab using Guid(f53ddb67ed1e3b74195e86129c6b28fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04427936fc8e49c43ba3411061d2f587') in 0.029955 seconds 
+  Import took 0.041102 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000273 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Sky.mat
-  artifactKey: Guid(304060a1c0899eb4e88dbb7cf30e74c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Sky.mat using Guid(304060a1c0899eb4e88dbb7cf30e74c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5820ed0a569e9d73562b8f4ef49224d7') in 0.024305 seconds 
-  Import took 0.030428 seconds .
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Minivan_Street.prefab
+  artifactKey: Guid(9fc048114bd5e0f47846b1ce4979687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Minivan_Street.prefab using Guid(9fc048114bd5e0f47846b1ce4979687b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bfd8ff98050201323852f9e8e3088c') in 0.041434 seconds 
+  Import took 0.048151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Scooter.mat
-  artifactKey: Guid(1406996dcde55074dbec077b1abd17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Materials/Scooter.mat using Guid(1406996dcde55074dbec077b1abd17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b7cf72680f9f4e817d2c3b5d90be29') in 0.030431 seconds 
-  Import took 0.083199 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_07.prefab
+  artifactKey: Guid(a94ef3855b3fd52479b4afdb5a9a566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_07.prefab using Guid(a94ef3855b3fd52479b4afdb5a9a566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821ca1773bbe4f2c6bf7cc580d0e713d') in 0.030559 seconds 
+  Import took 0.065684 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.184684 seconds.
+  Time since last request: 0.000280 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_10.prefab
+  artifactKey: Guid(19d3c6b8144812e44b38c6388d89bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_10.prefab using Guid(19d3c6b8144812e44b38c6388d89bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca04bea3d9c8d98afaa55c0bec8b337') in 0.028221 seconds 
+  Import took 0.034506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_08.prefab
+  artifactKey: Guid(d8808f34818d7e24b9c2228731040083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House_08.prefab using Guid(d8808f34818d7e24b9c2228731040083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5201cce76c3422b971dbdee73e2b67') in 0.030424 seconds 
+  Import took 0.044728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.818116 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street
+  artifactKey: Guid(b361175f902282345ba8edf32e227d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street using Guid(b361175f902282345ba8edf32e227d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab27c7fc14d16d6736a2c4f3b27ea7c') in 0.006951 seconds 
+  Import took 0.013496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062191 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Bike_Path.prefab
+  artifactKey: Guid(68afb270adc52de43987849dd87e4d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Bike_Path.prefab using Guid(68afb270adc52de43987849dd87e4d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1dd168712711771b0736202d6bd5a2c') in 0.026229 seconds 
+  Import took 0.070811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_02.prefab
+  artifactKey: Guid(5a1ae77df33211441b27addffa1703ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_02.prefab using Guid(5a1ae77df33211441b27addffa1703ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26847182da0fc68df14e3ddbfb6479eb') in 0.024528 seconds 
+  Import took 0.031721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_01.prefab
+  artifactKey: Guid(a0be1671064fe5f459e7e49063abce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_01.prefab using Guid(a0be1671064fe5f459e7e49063abce2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef978d1c3eedb2846179dbdaa29ce3e') in 0.027044 seconds 
+  Import took 0.032821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_02.prefab
+  artifactKey: Guid(65fce150fccae544790921ed6f88abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_02.prefab using Guid(65fce150fccae544790921ed6f88abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8dd4d005780d8456d27ba9925b98f3') in 0.026271 seconds 
+  Import took 0.036341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_03.prefab
+  artifactKey: Guid(ea9baee80212ced47a6b57ef3002f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_03.prefab using Guid(ea9baee80212ced47a6b57ef3002f761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3d20c1a68eb66cb870650653d05786') in 0.027316 seconds 
+  Import took 0.034359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_02.prefab
+  artifactKey: Guid(bdcb1ff91b507b34385dbd9b8b7fb1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_02.prefab using Guid(bdcb1ff91b507b34385dbd9b8b7fb1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf07580432b23e58df432d87b6512326') in 0.025797 seconds 
+  Import took 0.038626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_03.prefab
+  artifactKey: Guid(f4778de5a842dd941baedf0066ea5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_03.prefab using Guid(f4778de5a842dd941baedf0066ea5267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86317fca084ae27590a0de716c51a438') in 0.027812 seconds 
+  Import took 0.034213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_03.prefab
+  artifactKey: Guid(8054c3b13dbd9db44b738fe26743e3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_03.prefab using Guid(8054c3b13dbd9db44b738fe26743e3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5f21fd4ab5819cd75157ea941ebab4') in 0.027863 seconds 
+  Import took 0.033865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_03.prefab
+  artifactKey: Guid(99d619e7a450f234e9c94e7a8c4ff77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_03.prefab using Guid(99d619e7a450f234e9c94e7a8c4ff77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45fe8419c74347568ff2484561ed978') in 0.026547 seconds 
+  Import took 0.037087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_02.prefab
+  artifactKey: Guid(aee37d25b621de54dbe51ec4a299934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_02.prefab using Guid(aee37d25b621de54dbe51ec4a299934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0eb25baaef18bf605b591dadee1d30') in 0.023439 seconds 
+  Import took 0.029681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Angle_02.prefab
+  artifactKey: Guid(6b7b3cd0821730f499c1bb61cde8c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Angle_02.prefab using Guid(6b7b3cd0821730f499c1bb61cde8c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0fc2eab3f35f54270b6a507ef1292') in 0.091133 seconds 
+  Import took 0.096950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_Angle_02.prefab
+  artifactKey: Guid(180d73dd21ebd0e45b1385b59ab4bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_Angle_02.prefab using Guid(180d73dd21ebd0e45b1385b59ab4bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a98bf9cba21a0d279c4d5e780acb5c') in 0.027296 seconds 
+  Import took 0.032902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Angle.prefab
+  artifactKey: Guid(22b3d1e7087d5f648a7040d13d520aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Angle.prefab using Guid(22b3d1e7087d5f648a7040d13d520aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69badc92f36c703c2125c1799d4dc380') in 0.024821 seconds 
+  Import took 0.030817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_01.prefab
+  artifactKey: Guid(59b5edfd8e9b12f4db57759f1117c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_01.prefab using Guid(59b5edfd8e9b12f4db57759f1117c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ab56b54b09089b69497816fd087ed2') in 0.026188 seconds 
+  Import took 0.032465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Pedestrian_Crossing.prefab
+  artifactKey: Guid(e6837e16bb85d5f4e9c506d4f8818fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Pedestrian_Crossing.prefab using Guid(e6837e16bb85d5f4e9c506d4f8818fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129928493c2bd39751e087cc93211e7f') in 0.028567 seconds 
+  Import took 0.034526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Curbstone_01.prefab
+  artifactKey: Guid(926d45b8dd8e4af4081cd9559375de89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Curbstone_01.prefab using Guid(926d45b8dd8e4af4081cd9559375de89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1621e6724c96d1a0a906597413f6464f') in 0.022908 seconds 
+  Import took 0.028532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_04.prefab
+  artifactKey: Guid(818edc29dc7aecb42b54bf6d7651b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_04.prefab using Guid(818edc29dc7aecb42b54bf6d7651b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e3a441a633d1a179e4428968b06314') in 0.025220 seconds 
+  Import took 0.055969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_Angle_01.prefab
+  artifactKey: Guid(35ea26b5bf7eeb048a6acceb40264c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_Angle_01.prefab using Guid(35ea26b5bf7eeb048a6acceb40264c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc84fb7ccc1d20982914f123cacb4c9') in 0.023167 seconds 
+  Import took 0.033752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_02.prefab
+  artifactKey: Guid(c4c9be3eb4bbce34093289162c7be5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Hatch_02.prefab using Guid(c4c9be3eb4bbce34093289162c7be5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e4fe3dff411186629561022293ce9') in 0.026353 seconds 
+  Import took 0.036541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_01.prefab
+  artifactKey: Guid(7923e2d52efbc184591890e113ade53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_01.prefab using Guid(7923e2d52efbc184591890e113ade53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc707272ace131d471200442ea582e5') in 0.068864 seconds 
+  Import took 0.074218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_05.prefab
+  artifactKey: Guid(6a45e033b83831c42b08bd78f007eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_05.prefab using Guid(6a45e033b83831c42b08bd78f007eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8b74f7721885c1e0f23c33eb7360a2') in 0.028669 seconds 
+  Import took 0.033672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_01.prefab
+  artifactKey: Guid(36005ea0e0dc766428f07d11a7897700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Fence_01.prefab using Guid(36005ea0e0dc766428f07d11a7897700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af57b71cc0b0e9745cd26b404ae4fc47') in 0.028044 seconds 
+  Import took 0.033187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_06.prefab
+  artifactKey: Guid(a159638e37aae814ca983ad930b51965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Road_Markings_06.prefab using Guid(a159638e37aae814ca983ad930b51965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caf084a5f3628905334bc34700e2740') in 0.028568 seconds 
+  Import took 0.061873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_01.prefab
+  artifactKey: Guid(f0d397295d1b02e47b7814c57328234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street/Sidewalk_01.prefab using Guid(f0d397295d1b02e47b7814c57328234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb74a88ef8fe9ae1c9b921b0b7031924') in 0.025892 seconds 
+  Import took 0.035227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.066699 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street.prefab
+  artifactKey: Guid(54c8b741df2424740a8b57392e97bd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Street.prefab using Guid(54c8b741df2424740a8b57392e97bd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e556cad3dde354c5bbb447bfc5a3db') in 0.272533 seconds 
+  Import took 0.305075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.363772 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House.prefab
+  artifactKey: Guid(4d17d578cabea7f4a812a8f16cdcf6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/House.prefab using Guid(4d17d578cabea7f4a812a8f16cdcf6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7117943d24019fad6395292e5d756e3c') in 0.045007 seconds 
+  Import took 0.063379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.456595 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Houses.prefab
+  artifactKey: Guid(4d17d578cabea7f4a812a8f16cdcf6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Houses.prefab using Guid(4d17d578cabea7f4a812a8f16cdcf6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78eab2a32bafd13cb9f8c7da2de40f9') in 0.040989 seconds 
+  Import took 0.058558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.234018 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props.prefab
+  artifactKey: Guid(0869df36ccfdb2346a7a20476c20dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props.prefab using Guid(0869df36ccfdb2346a7a20476c20dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d7013cd85d09cc86c510e7e925ce5c') in 0.069871 seconds 
+  Import took 0.119452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.932712 seconds.
   path: Assets/Scenes/Shoutengai.unity
   artifactKey: Guid(e4ccde53b0102344c804adc71a1c473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shoutengai.unity using Guid(e4ccde53b0102344c804adc71a1c473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eead0492d73188c87fd472e5b91132b') in 0.009271 seconds 
-  Import took 0.015727 seconds .
+Start importing Assets/Scenes/Shoutengai.unity using Guid(e4ccde53b0102344c804adc71a1c473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59895f9a7e712701d2aa6d6c95cd2d3a') in 0.007557 seconds 
+  Import took 0.039820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.553454 seconds.
+  path: Assets/Scenes/Street.unity
+  artifactKey: Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Street.unity using Guid(743c42c8529669241843faf31a726d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2de555d5109d8b589709ec5ee1912ee') in 0.008283 seconds 
+  Import took 0.065339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.692632 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Full Street.prefab
+  artifactKey: Guid(8b0db20afa90d174d8a0ec2fd7af7e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Full Street.prefab using Guid(8b0db20afa90d174d8a0ec2fd7af7e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0491ac9486cce174f5865adbd292f975') in 0.096093 seconds 
+  Import took 0.107019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7080.296253 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat
+  artifactKey: Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement.mat using Guid(631a93903317ef4428b1d0fb4da44cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7a5845a7af6af193fa6be51577b847') in 0.120568 seconds 
+  Import took 0.173383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement 1.mat
+  artifactKey: Guid(d8ab4ea32d654584ebeaf1365009ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement 1.mat using Guid(d8ab4ea32d654584ebeaf1365009ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ec3d0c1a722bc1e35a86950cb287d') in 0.036979 seconds 
+  Import took 0.051520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.781765 seconds.
+  path: Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement_2.mat
+  artifactKey: Guid(d8ab4ea32d654584ebeaf1365009ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Nimikko_Shoutengai/Assets/Materials/M_PAvement_2.mat using Guid(d8ab4ea32d654584ebeaf1365009ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e74574c555641c41dcc6e10d41f8716') in 0.028240 seconds 
+  Import took 0.042372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.648640 seconds.
+  path: Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Grass_01.mat
+  artifactKey: Guid(f9aea762b6dbb31469ff20cfad0f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/AE_Japan_Auto/Materials/AE_Grass_01.mat using Guid(f9aea762b6dbb31469ff20cfad0f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82331c6a046e7869e5f03936e51dca5d') in 0.194617 seconds 
+  Import took 0.201000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399213 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Models/Props/Dumpster.fbx
+  artifactKey: Guid(d56aa44078b3c834783f35b895af93b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Models/Props/Dumpster.fbx using Guid(d56aa44078b3c834783f35b895af93b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c654a83a7dfe7f9b55d43f1b740199') in 0.445690 seconds 
+  Import took 0.469124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props/Dumpster_02.prefab
+  artifactKey: Guid(76c8a02d00f7b0a4baaeb9ffe6d11f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props/Dumpster_02.prefab using Guid(76c8a02d00f7b0a4baaeb9ffe6d11f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5085e179ebfee44919e0cd4675ef7bd') in 0.084195 seconds 
+  Import took 0.097953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/ThirdParty/269 Simple Kanji/Verb/Steal.png
+  artifactKey: Guid(a113f1eb69f79d74ab98479e10a71081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/269 Simple Kanji/Verb/Steal.png using Guid(a113f1eb69f79d74ab98479e10a71081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdc8e0012808416dae51abe6b7a7348') in 0.174574 seconds 
+  Import took 0.191216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/ThirdParty/269 Simple Kanji/Item/Steel.png
+  artifactKey: Guid(83f2f51bb96973d4a9a04b844dfe4009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/269 Simple Kanji/Item/Steel.png using Guid(83f2f51bb96973d4a9a04b844dfe4009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e2baea32decf8bf120fa3990812d0e') in 0.086592 seconds 
+  Import took 0.105919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props/Dumpster.prefab
+  artifactKey: Guid(8feef7e8ec864924dbdb235698982c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Props/Dumpster.prefab using Guid(8feef7e8ec864924dbdb235698982c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe27c3f7a4b23fb9b38e660d1dc773') in 0.047208 seconds 
+  Import took 0.056285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/ThirdParty/269 Simple Kanji/Creature/Monster.png
+  artifactKey: Guid(b5a7d859968414a4cbd65cec2ce6a3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/269 Simple Kanji/Creature/Monster.png using Guid(b5a7d859968414a4cbd65cec2ce6a3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55689b3d0dc77dbed8997bc7a1d5790') in 0.070114 seconds 
+  Import took 0.075516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Models/Props/Dumpster_02.fbx
+  artifactKey: Guid(49d9cbaea75f6d544b6a3188984433f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Models/Props/Dumpster_02.fbx using Guid(49d9cbaea75f6d544b6a3188984433f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541b2cdce44d296fbede6c30914eedec') in 0.046881 seconds 
+  Import took 0.067057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.190839 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules
+  artifactKey: Guid(31da88fac97869f409321c80d284bad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules using Guid(31da88fac97869f409321c80d284bad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5852e40d35283d75c355617d5373f287') in 0.007688 seconds 
+  Import took 0.033089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038311 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_01.prefab
+  artifactKey: Guid(8c1d6bd0a16339042923242bf7037f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_01.prefab using Guid(8c1d6bd0a16339042923242bf7037f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12855d456be5048a65235d686fc00e46') in 0.117603 seconds 
+  Import took 0.124251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Ceiling.prefab
+  artifactKey: Guid(350c4d8036f3a754f9ccc124e69b3551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Ceiling.prefab using Guid(350c4d8036f3a754f9ccc124e69b3551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f5bf53b98593b20b57defadfd23b0') in 0.066604 seconds 
+  Import took 0.072476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_01.prefab
+  artifactKey: Guid(81518f80c5004774e8cbebf6688a268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_01.prefab using Guid(81518f80c5004774e8cbebf6688a268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257b4dc30c3a9056b2b16e4b4ac7156e') in 0.076542 seconds 
+  Import took 0.114467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_04.prefab
+  artifactKey: Guid(3ccc2213658679246943b3fcd16e332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_04.prefab using Guid(3ccc2213658679246943b3fcd16e332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16dd1f725e7ff2769870433e1ac20c3') in 0.085556 seconds 
+  Import took 0.134051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_03.prefab
+  artifactKey: Guid(eb8ad79f94f43f54fac84451a23c9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_03.prefab using Guid(eb8ad79f94f43f54fac84451a23c9935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839dbca3cc453b8ede02cc3b3ec2a1c8') in 0.075561 seconds 
+  Import took 0.106757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_01.prefab
+  artifactKey: Guid(20d532d2ab1f26d43ad1ed75e3c6a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_01.prefab using Guid(20d532d2ab1f26d43ad1ed75e3c6a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35e0206c5a2bab2ca7a89a9771d65ad') in 0.071177 seconds 
+  Import took 0.103447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_06.prefab
+  artifactKey: Guid(40836bd793125894b82b6faaf16cbbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_06.prefab using Guid(40836bd793125894b82b6faaf16cbbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e739c8ddcabdad180416e8c333cca30') in 0.086210 seconds 
+  Import took 0.112770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Door.prefab
+  artifactKey: Guid(3cd4e2772aa111f489c650d5adc6544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Door.prefab using Guid(3cd4e2772aa111f489c650d5adc6544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd49931c5b5876d82b25c869ea316bd8') in 0.072768 seconds 
+  Import took 0.107744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_04.prefab
+  artifactKey: Guid(2ece4bc57ecbd674cbe4422bb85885d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_04.prefab using Guid(2ece4bc57ecbd674cbe4422bb85885d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b83d2e85cd6b5f4968459ee7d8cab08') in 0.075591 seconds 
+  Import took 0.108351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Roof.prefab
+  artifactKey: Guid(f45e2b6c4a28bed4b9ec9f8db993cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Roof.prefab using Guid(f45e2b6c4a28bed4b9ec9f8db993cfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518bfe04c7b57fd30185a9dcea94b626') in 0.078119 seconds 
+  Import took 0.275198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_01.prefab
+  artifactKey: Guid(3d88266104d6ec243bd56f91f78f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_01.prefab using Guid(3d88266104d6ec243bd56f91f78f9e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0921187956985ab5349230bb37be43') in 0.065840 seconds 
+  Import took 0.102210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_03.prefab
+  artifactKey: Guid(4f60c43be84261949a979ab7688349e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_03.prefab using Guid(4f60c43be84261949a979ab7688349e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac11ce18d81ac1040714f90c8734a2') in 0.077930 seconds 
+  Import took 0.110508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_02.prefab
+  artifactKey: Guid(91b6a6ff23e1f6946b2952e64429c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_02.prefab using Guid(91b6a6ff23e1f6946b2952e64429c7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87869e66527b9fe8026e80903f8773f') in 0.070399 seconds 
+  Import took 0.075321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Wall_4x3_m.prefab
+  artifactKey: Guid(a3bb0f2f1ad4ed249add1846157cb133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Wall_4x3_m.prefab using Guid(a3bb0f2f1ad4ed249add1846157cb133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52998ca55150b73f52e7b20b8a8cb57') in 0.064080 seconds 
+  Import took 0.131914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_08.prefab
+  artifactKey: Guid(f502315407e9a624a943e8b0eafba095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_08.prefab using Guid(f502315407e9a624a943e8b0eafba095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2140b6af9095977a711cf708d9127eb3') in 0.122996 seconds 
+  Import took 0.162958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_02.prefab
+  artifactKey: Guid(66927991665bcb14284fabcf83354da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_02.prefab using Guid(66927991665bcb14284fabcf83354da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a10d34b9e7449f460a51cfa0e5e104') in 0.078043 seconds 
+  Import took 0.110220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_01.prefab
+  artifactKey: Guid(b5c3d5ced7283a34397bc147a0894090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_01.prefab using Guid(b5c3d5ced7283a34397bc147a0894090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c72324e36f7c6274cc1fb65a6d2fab2') in 0.072947 seconds 
+  Import took 0.101715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_02.prefab
+  artifactKey: Guid(e1e3115a7d728ec46a70b9789bb55b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_02.prefab using Guid(e1e3115a7d728ec46a70b9789bb55b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0506682d85a833235067459c6723b68') in 0.056079 seconds 
+  Import took 0.061649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_01.prefab
+  artifactKey: Guid(30ab60361dfa2ee429ce84a7348afe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_01.prefab using Guid(30ab60361dfa2ee429ce84a7348afe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023e859b749ea661517a9aef2fab9152') in 0.066227 seconds 
+  Import took 0.071670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_03.prefab
+  artifactKey: Guid(a07cc95b5c3cdb94dbdf4712b8de767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_03.prefab using Guid(a07cc95b5c3cdb94dbdf4712b8de767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f7e16f0fef7a5c3aee41a23280aa88') in 0.067339 seconds 
+  Import took 0.072398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_04.prefab
+  artifactKey: Guid(79a534c53ffcb064aa652e27861b3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_04.prefab using Guid(79a534c53ffcb064aa652e27861b3bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cd62d2aeb3420b2180e880ae77609a') in 0.064442 seconds 
+  Import took 0.094235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_03.prefab
+  artifactKey: Guid(efa3128d5d3a4db43b906b4fe5555ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_03.prefab using Guid(efa3128d5d3a4db43b906b4fe5555ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50257c2c70cee707c32b52025a15f243') in 0.070520 seconds 
+  Import took 0.108436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_02.prefab
+  artifactKey: Guid(d125b76a79fcdb64495d085a4495e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_02.prefab using Guid(d125b76a79fcdb64495d085a4495e0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d8839f875e23da530670b1a49474e3') in 0.076649 seconds 
+  Import took 0.101966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_04.prefab
+  artifactKey: Guid(deea2392c6696c1449820f0588119658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_04.prefab using Guid(deea2392c6696c1449820f0588119658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e6a34634d9688808a8c0908f753ed4') in 0.102469 seconds 
+  Import took 0.142032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_01.prefab
+  artifactKey: Guid(87270c5eaaf85124eb09575bc4f00565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_01.prefab using Guid(87270c5eaaf85124eb09575bc4f00565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e533a077991eb91cd012817c0fe08dbb') in 0.068215 seconds 
+  Import took 0.095483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_03.prefab
+  artifactKey: Guid(279eef9013500f243b185e28e505c04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_03.prefab using Guid(279eef9013500f243b185e28e505c04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ce5822a41a38f8178794caee107345') in 0.066627 seconds 
+  Import took 0.071644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_09.prefab
+  artifactKey: Guid(5d65f87b1a9b41d4395e7c496fe8e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_09.prefab using Guid(5d65f87b1a9b41d4395e7c496fe8e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab3e8d34b3b3cb1d29c597f40ee7dca') in 0.057414 seconds 
+  Import took 0.089326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_17.prefab
+  artifactKey: Guid(9430577e1bfd7e646bc9103e5d0c7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_17.prefab using Guid(9430577e1bfd7e646bc9103e5d0c7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c3b25c536658fec2475e6bf52dda6') in 0.065405 seconds 
+  Import took 0.070876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_05.prefab
+  artifactKey: Guid(33ba57ffb0776cf48881aeb12b2ea6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_05.prefab using Guid(33ba57ffb0776cf48881aeb12b2ea6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21787757cf126935099284b4c102935e') in 0.065322 seconds 
+  Import took 0.070583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_02.prefab
+  artifactKey: Guid(5c2c360eedbc74843bb8ccbc954f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_02.prefab using Guid(5c2c360eedbc74843bb8ccbc954f0676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38db261bfb7a0e898b4ce59281579c4') in 0.052628 seconds 
+  Import took 0.082804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Wall_2x3_m.prefab
+  artifactKey: Guid(8af29ce879e100f4c9b346b6fce33239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Internal_Wall_2x3_m.prefab using Guid(8af29ce879e100f4c9b346b6fce33239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc324ee353559dcd4948ac2484d9252') in 0.069003 seconds 
+  Import took 0.074859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_03.prefab
+  artifactKey: Guid(90bf3caba94913348a96cce97c887433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_03.prefab using Guid(90bf3caba94913348a96cce97c887433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de037658b3639af90d89bf5fbb71e78a') in 0.068717 seconds 
+  Import took 0.075105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_02.prefab
+  artifactKey: Guid(59f515b6478429540b130dd4ea1f8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Foundation_02.prefab using Guid(59f515b6478429540b130dd4ea1f8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94da19d8bddfd062ed26dc571c39ec9') in 0.046307 seconds 
+  Import took 0.070222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_02.prefab
+  artifactKey: Guid(2b865c7e2e746334d937bb5b9344f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Balcony_02.prefab using Guid(2b865c7e2e746334d937bb5b9344f6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d0c6539986dbd41c9120661e5e4be7') in 0.069510 seconds 
+  Import took 0.077573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_03.prefab
+  artifactKey: Guid(a2e0ca3f0cab6634aaeae611853d933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_03.prefab using Guid(a2e0ca3f0cab6634aaeae611853d933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa83fe6d2eeef120eb5c10c7f286be27') in 0.094816 seconds 
+  Import took 0.129306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Floor_01.prefab
+  artifactKey: Guid(2efcadb2a44485d40b2095d612b005b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Floor_01.prefab using Guid(2efcadb2a44485d40b2095d612b005b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b88298d7c7af75e11d2d7924d0e54e') in 0.071460 seconds 
+  Import took 0.104838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_13.prefab
+  artifactKey: Guid(4553fb6d6863a9a46a93eda61f156107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_13.prefab using Guid(4553fb6d6863a9a46a93eda61f156107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd1a2f2da7430c872b1694dcba6bceb') in 0.070968 seconds 
+  Import took 0.102073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_16.prefab
+  artifactKey: Guid(97c7dda91e8fb2343a53f367fe9704e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_16.prefab using Guid(97c7dda91e8fb2343a53f367fe9704e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940e0bc430df2a97617c5e4fa243f018') in 0.069486 seconds 
+  Import took 0.096342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_02.prefab
+  artifactKey: Guid(12c6bd40532035b4bbe4eb334fbbb087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_02.prefab using Guid(12c6bd40532035b4bbe4eb334fbbb087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dfb60d4e1246337bad99f81c9d006f') in 0.067581 seconds 
+  Import took 0.073279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Angle.prefab
+  artifactKey: Guid(8fa00ca38176be94e949ff533076bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Angle.prefab using Guid(8fa00ca38176be94e949ff533076bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971db11a0249158c6858372d0156a71d') in 0.061877 seconds 
+  Import took 0.068335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_06.prefab
+  artifactKey: Guid(e0fe6ccc3b9124741b52b64d3cf3a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_06.prefab using Guid(e0fe6ccc3b9124741b52b64d3cf3a785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba415096c65f9730f0824c2ec51ef7e') in 0.052698 seconds 
+  Import took 0.057781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_19.prefab
+  artifactKey: Guid(73cc0b9b3d4468a459218097dea7ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_19.prefab using Guid(73cc0b9b3d4468a459218097dea7ae92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932d5750e02af800f3d989a61ed4800a') in 0.089666 seconds 
+  Import took 0.094806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_03.prefab
+  artifactKey: Guid(2c9d2f0ec457da04ab57319cf69f4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_03.prefab using Guid(2c9d2f0ec457da04ab57319cf69f4176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adf60bb0b4037e5919e096a64ce497c') in 0.068016 seconds 
+  Import took 0.074298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_04.prefab
+  artifactKey: Guid(ab35d9655cd229c4dabf95ef65533127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Parapet_Angle_04.prefab using Guid(ab35d9655cd229c4dabf95ef65533127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448005f7c3229e357c49a02cee06d230') in 0.070149 seconds 
+  Import took 0.102761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_01.prefab
+  artifactKey: Guid(f0af3f833a0c28d4a985e52073740bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_01.prefab using Guid(f0af3f833a0c28d4a985e52073740bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075f1416e54eebbf241c31933c45d2c1') in 0.066924 seconds 
+  Import took 0.072404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_12.prefab
+  artifactKey: Guid(96cd8c9ba2692cc4ca895d6a64fe134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_12.prefab using Guid(96cd8c9ba2692cc4ca895d6a64fe134e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a3b5b58e997d9872feb58917f3d2ba') in 0.067425 seconds 
+  Import took 0.072802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_18.prefab
+  artifactKey: Guid(ddb33f1184a33c64e96021ecac754af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_18.prefab using Guid(ddb33f1184a33c64e96021ecac754af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c79debf42b5310def6e2e2b6b538e1') in 0.051553 seconds 
+  Import took 0.084417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_04.prefab
+  artifactKey: Guid(3a9deb7321c187241949f069589d6d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_04.prefab using Guid(3a9deb7321c187241949f069589d6d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530d5b8d468e6f8fd437d8b639cc1ea7') in 0.063873 seconds 
+  Import took 0.093012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_04.prefab
+  artifactKey: Guid(7c38e19e1885d034fa357996bb1ec80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_4x3_m_04.prefab using Guid(7c38e19e1885d034fa357996bb1ec80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59f872b48f42ebab09bc816838d3ccc') in 0.063940 seconds 
+  Import took 0.070101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_03.prefab
+  artifactKey: Guid(e50b7418a2973394cb8ae1886bb1a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_03.prefab using Guid(e50b7418a2973394cb8ae1886bb1a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c520896978de69cb1feb1559206c7ed') in 0.063224 seconds 
+  Import took 0.068631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_15.prefab
+  artifactKey: Guid(0ee74bf19a545804a9caa7a5fdbbd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_15.prefab using Guid(0ee74bf19a545804a9caa7a5fdbbd8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e8be065de63a266f3d4f384a19094e') in 0.061980 seconds 
+  Import took 0.068127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_04.prefab
+  artifactKey: Guid(25c5b93caf9edcb428bab074402e4906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_04.prefab using Guid(25c5b93caf9edcb428bab074402e4906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f0800b65346babd50089de51be7c99') in 0.053917 seconds 
+  Import took 0.085277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_01.prefab
+  artifactKey: Guid(e8bab268921407841bcc538224aeb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_2.5x3_m_01.prefab using Guid(e8bab268921407841bcc538224aeb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e72f51852eb0281d3b7eb37efacb92') in 0.067923 seconds 
+  Import took 0.098168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Porch.prefab
+  artifactKey: Guid(51a45438f323eac4bb88d54ffac97d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Porch.prefab using Guid(51a45438f323eac4bb88d54ffac97d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91309b75b0b905e0660d30a1d70125a0') in 0.069725 seconds 
+  Import took 0.102797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_05.prefab
+  artifactKey: Guid(27f98012f9fd6dd48bf21e03c9ee32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Entrance_Door_05.prefab using Guid(27f98012f9fd6dd48bf21e03c9ee32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63880128ad5d1a650c56492bbe659401') in 0.070752 seconds 
+  Import took 0.077252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_07.prefab
+  artifactKey: Guid(eaa5486b4aceea04f8844ba9583e1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_07.prefab using Guid(eaa5486b4aceea04f8844ba9583e1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf4260bfff7f70cddc826be41f78cdc') in 0.066126 seconds 
+  Import took 0.096483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_05.prefab
+  artifactKey: Guid(5cff59081a55ea84a9fe875fcf5ce832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Garage_05.prefab using Guid(5cff59081a55ea84a9fe875fcf5ce832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c97d2a86760fe1fd16b4c3782234834') in 0.055753 seconds 
+  Import took 0.092559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Column.prefab
+  artifactKey: Guid(95a226bc6d8e5c848a36ef39e7ba4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Column.prefab using Guid(95a226bc6d8e5c848a36ef39e7ba4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40f3f2270b5e61b84784f57c4e23844') in 0.068651 seconds 
+  Import took 0.099897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_10.prefab
+  artifactKey: Guid(56eb2dfff1a4d724bba2e4846f3606bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Japanese_Street_(Mobile)/Prefabs/Modules/Wall_Windows_10.prefab using Guid(56eb2dfff1a4d724bba2e4846f3606bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e2e9dbd2cff72944f46e660b00b6ea') in 0.071847 seconds 
+  Import took 0.077491 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
