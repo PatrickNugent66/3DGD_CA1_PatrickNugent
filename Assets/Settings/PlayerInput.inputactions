@@ -1,0 +1,113 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1f052a87-d85b-4b6e-90f9-d7694d5bea5d",
+            "actions": [
+                {
+                    "name": "SelectWaypoint",
+                    "type": "Button",
+                    "id": "aed9a425-1224-4335-942f-e9fe1e83c214",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap,SlowTap"
+                },
+                {
+                    "name": "SelectPlayer",
+                    "type": "Button",
+                    "id": "c9e1da23-c8fd-4965-8c6e-21e3ef9e2506",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap,SlowTap"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9eae665-a0bc-449a-ba78-39220889369c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectWaypoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a25fe41d-1845-44d5-af8b-1723a627d142",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap,SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectPlayer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard&Mouse",
+            "bindingGroup": "Keyboard&Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joystick",
+            "bindingGroup": "Joystick",
+            "devices": [
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XR",
+            "bindingGroup": "XR",
+            "devices": [
+                {
+                    "devicePath": "<XRController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
