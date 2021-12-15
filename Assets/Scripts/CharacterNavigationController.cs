@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 /// <summary>
 /// Supports click to select and click to set waypoint on a mav mesh
+/// NOTE: edited to remove the need for player selection 
 /// </summary>
 /// <see cref="https://www.youtube.com/watch?v=CHV1ymlw-P8"/>
 /// <seealso cref="https://www.youtube.com/watch?v=FkLJ45Pt-mY&t=158s"/>
@@ -15,11 +16,6 @@ namespace ARVR.Controllers
     [RequireComponent(typeof(NavMeshAgent))]
     public class CharacterNavigationController : MonoBehaviour
     {
-        [Header("Selection & Waypoint")]
-        [SerializeField]
-        [Tooltip("Set the game object used to indicate that the character using this controller is currently selected.")]
-        private GameObject selectionPrefab;
-
         [SerializeField]
         [Tooltip("Set the game object used to indicate a waypoint for the character using this controller for navigation.")]
         private GameObject waypointPrefab;
@@ -38,7 +34,6 @@ namespace ARVR.Controllers
         private IRayProvider rayProvider;
         private ISelector selector;
         private RaycastHit hitInfo;
-        private bool isSelected;
 
         private void Start()
         {
@@ -49,33 +44,13 @@ namespace ARVR.Controllers
         }
 
         /// <summary>
-        /// Called when a player selects the on-screen player avatar
-        /// </summary>
-        /// <param name="context"></param>
-        public void OnSelectPlayer(InputAction.CallbackContext context)
-        {
-            //if player is selected and we click and select a different player
-            if (currentlySelectedGameObject.Value != null && currentlySelectedGameObject.Value != gameObject)
-            {
-                //de-select current
-                currentlySelectedGameObject.Value = null;
-                SetSelected(false);
-            }
-
-            //set selected new player object
-            SetSelected(true);
-            currentlySelectedGameObject.Value = gameObject;
-        }
-
-        /// <summary>
         /// Called when player selects a destination point on the navmesh
         /// </summary>
         /// <param name="context"></param>
         public void OnSelectWaypoint(InputAction.CallbackContext context)
         {
-            //if a player is selected then determine destination
-            if (isSelected)
-                ClickDestination();
+            //determine destination
+            ClickDestination();
         }
 
         /// <summary>
@@ -112,7 +87,6 @@ namespace ARVR.Controllers
                 hitInfo = selector.GetHitInfo();
                 SetDestination(hitInfo.point);
                 SetWaypoint();
-                SetSelected(false);
                 animator.SetBool("IsWalking", true);
             }
         }
@@ -134,16 +108,6 @@ namespace ARVR.Controllers
         {
             waypointPrefab.SetActive(false);
             waypointPrefab.transform.SetParent(transform);
-        }
-
-        /// <summary>
-        /// Set selected and show selection indicator around the player
-        /// </summary>
-        /// <param name="isSelected"></param>
-        public void SetSelected(bool isSelected)
-        {
-            this.isSelected = isSelected;
-            selectionPrefab.SetActive(isSelected);
         }
 
         #endregion Actions -  Set/Clear destination and waypoint

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Currently selected object
   Description: Stores selected object of navigation demo
-  Value: {fileID: 0}
+  Value: {fileID: 3854343175943965881, guid: 36248f147d02ea0488b660321d1452c5, type: 3}

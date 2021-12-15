@@ -12,36 +12,17 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Tap,SlowTap"
-                },
-                {
-                    "name": "SelectPlayer",
-                    "type": "Button",
-                    "id": "c9e1da23-c8fd-4965-8c6e-21e3ef9e2506",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "Tap,SlowTap"
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "f9eae665-a0bc-449a-ba78-39220889369c",
-                    "path": "<Mouse>/rightButton",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SelectWaypoint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a25fe41d-1845-44d5-af8b-1723a627d142",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "Tap,SlowTap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SelectPlayer",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
