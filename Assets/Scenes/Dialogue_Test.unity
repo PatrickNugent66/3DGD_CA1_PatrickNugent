@@ -199,7 +199,7 @@ MonoBehaviour:
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
   conversation: New Conversation 1
-  conversationConversant: {fileID: 144709426}
+  conversationConversant: {fileID: 803852144}
   conversationActor: {fileID: 1786805828}
   startConversationEntryID: -1
   exclusive: 0
@@ -220,12 +220,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 6dbb0f745b2482f4caa70702e41705d7, type: 2}
---- !u!4 &144709426 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7bc31c406dd63d345b59bece703b43c7, type: 3}
-  m_PrefabInstance: {fileID: 213711232}
-  m_PrefabAsset: {fileID: 0}
+  selectedDatabase: {fileID: 11400000, guid: 289ce8af25d9f304a9ae000bf72be87a, type: 2}
 --- !u!65 &144709427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -293,6 +288,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7bc31c406dd63d345b59bece703b43c7, type: 3}
       propertyPath: m_Name
       value: homeless_man
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7bc31c406dd63d345b59bece703b43c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc31c406dd63d345b59bece703b43c7, type: 3}
@@ -437,7 +436,7 @@ PrefabInstance:
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
       value: 
-      objectReference: {fileID: 11400000, guid: 6dbb0f745b2482f4caa70702e41705d7, type: 2}
+      objectReference: {fileID: 11400000, guid: 289ce8af25d9f304a9ae000bf72be87a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1 &803852139
@@ -460,7 +459,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &803852140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +527,7 @@ MonoBehaviour:
   useConversationTitlePicker: 1
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 6dbb0f745b2482f4caa70702e41705d7, type: 2}
+  selectedDatabase: {fileID: 11400000, guid: 289ce8af25d9f304a9ae000bf72be87a, type: 2}
 --- !u!65 &803852141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -619,7 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: 
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 100
   events:
     onSelect:
       m_PersistentCalls:

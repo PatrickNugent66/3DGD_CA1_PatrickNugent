@@ -5054,6 +5054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cop
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11263c06df3349e4f8f3a0a01a9bf9ef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 11263c06df3349e4f8f3a0a01a9bf9ef, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5088,6 +5092,122 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 51526391a3c17d14291743156db0a294, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11263c06df3349e4f8f3a0a01a9bf9ef, type: 3}
+--- !u!1 &1419195896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 11263c06df3349e4f8f3a0a01a9bf9ef, type: 3}
+  m_PrefabInstance: {fileID: 1419195895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1419195897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419195896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: 32
+  condition:
+    luaConditions: []
+    questConditions: []
+    acceptedTags: []
+    acceptedGameObjects: []
+    luaWizardIndex: -1
+    lastEvaluationValue: 0
+  setQuestState: 1
+  questName: 
+  questState: 0
+  setQuestEntryState: 0
+  questEntryNumber: 1
+  questEntryState: 0
+  luaCode: 
+  sequence: 
+  sequenceSpeaker: {fileID: 0}
+  sequenceListener: {fileID: 0}
+  waitOneFrameOnStartOrEnable: 1
+  alertMessage: 
+  textTable: {fileID: 0}
+  alertDuration: 0
+  sendMessages: []
+  barkSource: 0
+  barkConversation: 
+  barkText: 
+  barkTextSequence: 
+  barker: {fileID: 0}
+  barkTarget: {fileID: 0}
+  barkOrder: 0
+  allowBarksDuringConversations: 0
+  skipBarkIfNoValidEntries: 0
+  cacheBarkLines: 0
+  conversation: Cop intro
+  conversationConversant: {fileID: 1419195900}
+  conversationActor: {fileID: 1262561756}
+  startConversationEntryID: -1
+  exclusive: 0
+  replace: 0
+  skipIfNoValidEntries: 1
+  stopConversationOnTriggerExit: 0
+  stopConversationIfTooFar: 0
+  maxConversationDistance: 5
+  monitorConversationDistanceFrequency: 1
+  showCursorDuringConversation: 0
+  pauseGameDuringConversation: 0
+  setActiveActions: []
+  setEnabledActions: []
+  setAnimatorStateActions: []
+  onExecute:
+    m_PersistentCalls:
+      m_Calls: []
+  useConversationTitlePicker: 1
+  useBarkTitlePicker: 1
+  useQuestNamePicker: 1
+  selectedDatabase: {fileID: 11400000, guid: 6dbb0f745b2482f4caa70702e41705d7, type: 2}
+--- !u!114 &1419195898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419195896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideName: 
+  overrideUseMessage: 
+  maxUseDistance: 30
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!4 &1419195900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 11263c06df3349e4f8f3a0a01a9bf9ef, type: 3}
+  m_PrefabInstance: {fileID: 1419195895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1419195901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419195896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.197155, y: 2.0374036, z: 1}
+  m_Center: {x: -0.024320602, y: 0.95218897, z: 0}
 --- !u!1 &1430923653
 GameObject:
   m_ObjectHideFlags: 0
@@ -6401,7 +6521,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: New Conversation 1
+  conversation: Homeless man intro
   conversationConversant: {fileID: 327629045}
   conversationActor: {fileID: 1262561756}
   startConversationEntryID: -1
@@ -6435,8 +6555,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8643341, y: 1.7010906, z: 0.5488281}
-  m_Center: {x: 0.0014038086, y: 0.923761, z: 0.028678894}
+  m_Size: {x: 1.4192276, y: 1.7010906, z: 1.3603592}
+  m_Center: {x: -0.025447845, y: 0.923761, z: -0.03068161}
 --- !u!1 &1891406555
 GameObject:
   m_ObjectHideFlags: 0
@@ -13358,7 +13478,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 530003539676053917}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &1771883036941004820
 LODGroup:
   m_ObjectHideFlags: 0
@@ -20129,7 +20249,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7848927342889557099}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &3930569854602433016
 LODGroup:
   m_ObjectHideFlags: 0
@@ -27660,7 +27780,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2988225761586758249}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &6034413825189720565
 LODGroup:
   m_ObjectHideFlags: 0
@@ -29313,7 +29433,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1151926951946837754}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &6821546538043366690
 LODGroup:
   m_ObjectHideFlags: 0
@@ -29332,7 +29452,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1151926951738815016}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &6821546538558855471
 LODGroup:
   m_ObjectHideFlags: 0
@@ -29602,7 +29722,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6489017066714579557}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!65 &6952340865296568975
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33625,7 +33745,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1412705907937337286}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &8406694219748844394
 Transform:
   m_ObjectHideFlags: 0
