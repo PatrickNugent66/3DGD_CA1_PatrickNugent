@@ -1386,6 +1386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sushi_Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 139b6dd7d04212947a5f444ee52881d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 139b6dd7d04212947a5f444ee52881d2, type: 3}
 --- !u!1 &288313817
@@ -2431,7 +2435,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Vendor introduction
+  conversation: Vendor
   conversationConversant: {fileID: 647929329}
   conversationActor: {fileID: 1262561756}
   startConversationEntryID: -1
@@ -5560,7 +5564,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Cop intro
+  conversation: Cop
   conversationConversant: {fileID: 1419195900}
   conversationActor: {fileID: 1262561756}
   startConversationEntryID: -1
@@ -7179,7 +7183,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: Homeless man intro
+  conversation: 'Homeless man '
   conversationConversant: {fileID: 327629045}
   conversationActor: {fileID: 1262561756}
   startConversationEntryID: -1
@@ -11000,7 +11004,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 3084317696739928207}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &928370956737197409
 LODGroup:
   m_ObjectHideFlags: 0
@@ -19277,7 +19281,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7041945935123305757}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &3535831733558288910
 Transform:
   m_ObjectHideFlags: 0
@@ -23227,7 +23231,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 5947739850231706606}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!205 &4481170248109063027
 LODGroup:
   m_ObjectHideFlags: 0
