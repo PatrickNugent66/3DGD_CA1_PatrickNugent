@@ -15,11 +15,11 @@ E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59053
+59851
 Successfully changed project path to: E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 E:/DKIT/3D Game Development/3DGD_CA1_PatrickNugent/3DGD_CA1_PatrickNugent
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001978 seconds.
+Registered in 0.001994 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 114.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 122.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.801 seconds
 Domain Reload Profiling:
-	ReloadAssembly (798ms)
+	ReloadAssembly (801ms)
 		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (642ms)
+		EndReloadAssembly (648ms)
 			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
+				RefreshPlugins (123ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (113ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008790 seconds.
+Registered in 0.009716 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.580 seconds
+- Completed reload, in  1.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1581ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1332ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (453ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (513ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (280ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (283ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3413 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 148.0 MB.
 System memory in use after: 148.2 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4128.
-Total: 3.881500 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.154100 ms MarkObjects: 3.294000 ms  DeleteObjects: 0.102800 ms)
+Total: 5.279700 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.152200 ms MarkObjects: 4.658900 ms  DeleteObjects: 0.138800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,304 +131,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ThirdParty/Kanabo
-  artifactKey: Guid(44ea4cc4545b9a5409d98c8611aace14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo using Guid(44ea4cc4545b9a5409d98c8611aace14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf8d07298be2f34ab697ba2c51775eb') in 0.011811 seconds 
-  Import took 0.078389 seconds .
+  path: Assets/DialogueSystem/Dialogue Database (Auto-Backup).asset
+  artifactKey: Guid(0cec2f4aa322bcd4ebda8c6262c60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogue Database (Auto-Backup).asset using Guid(0cec2f4aa322bcd4ebda8c6262c60400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6feeb5bd0db3de0fcf9050c05742d39f') in 0.114089 seconds 
+  Import took 0.122006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.785147 seconds.
-  path: Assets/ThirdParty/Kanabo/kanabo.fbx
-  artifactKey: Guid(2b99b84fc10e94a4e915e08285b0d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/kanabo.fbx using Guid(2b99b84fc10e94a4e915e08285b0d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd8ef43f10b2053edbe73b92c2b2db5') in 0.450696 seconds 
-  Import took 0.481558 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Assets/DialogueSystem/Dialogue Database.asset
+  artifactKey: Guid(6dbb0f745b2482f4caa70702e41705d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogue Database.asset using Guid(6dbb0f745b2482f4caa70702e41705d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ebdef749bd9119e0119e86b8b9e5f7') in 0.023240 seconds 
+  Import took 0.029370 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.811915 seconds.
-  path: Assets/ThirdParty/Radio/motorola-dp4800.zip
-  artifactKey: Guid(6ba8d5d2f809c994d9518505a43ab7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Radio/motorola-dp4800.zip using Guid(6ba8d5d2f809c994d9518505a43ab7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba995645a5bf7c4cdaec391b2f61171') in 0.018303 seconds 
-  Import took 0.047466 seconds .
+  Time since last request: 1802.736734 seconds.
+  path: Assets/ThirdParty/model
+  artifactKey: Guid(96152943e9bdbf846a7218f19067b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/model using Guid(96152943e9bdbf846a7218f19067b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2badc56095ac91a48beb497b3d543491') in 0.010166 seconds 
+  Import took 0.018197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.251157 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_albedo.jpg
-  artifactKey: Guid(fc93c117d422048468b258239db5c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_albedo.jpg using Guid(fc93c117d422048468b258239db5c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef0bf6f2ddf8bc41f35259a57749f0b') in 0.040256 seconds 
-  Import took 0.055478 seconds .
+  Time since last request: 7.965671 seconds.
+  path: Assets/ThirdParty/Oni_Mask
+  artifactKey: Guid(96152943e9bdbf846a7218f19067b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask using Guid(96152943e9bdbf846a7218f19067b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98b18197b05db953c088174b4accd97') in 0.009035 seconds 
+  Import took 0.015829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_AO.jpg
-  artifactKey: Guid(f85f575af0db1e74c89d851faeaa8a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_AO.jpg using Guid(f85f575af0db1e74c89d851faeaa8a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7f433a122f9584d539f4ac3d75847d') in 0.015718 seconds 
-  Import took 0.044701 seconds .
+  Time since last request: 1.331956 seconds.
+  path: Assets/ThirdParty/Oni_Mask/oni maskfbx.fbx
+  artifactKey: Guid(9bf0fe257d570764189d348c1e92703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/oni maskfbx.fbx using Guid(9bf0fe257d570764189d348c1e92703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef38bdc86a9413eb392ae013d4545e04') in 0.419666 seconds 
+  Import took 0.427551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_metallic.jpg
-  artifactKey: Guid(70e8da736cb145c498dfac0e24e385d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_metallic.jpg using Guid(70e8da736cb145c498dfac0e24e385d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebad3c8ccb258b4356e4d750b5a6d42') in 0.015229 seconds 
-  Import took 0.021173 seconds .
+  Time since last request: 34.845299 seconds.
+  path: Assets/ThirdParty/Oni_Mask/Oni_Mask.mat
+  artifactKey: Guid(3b1c249b2f978e640a8c4d6fe6abc537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/Oni_Mask.mat using Guid(3b1c249b2f978e640a8c4d6fe6abc537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e532b2d9c6dfbf8e1f8a045091780e') in 0.048787 seconds 
+  Import took 0.057287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_roughness.jpg
-  artifactKey: Guid(fe81ad94c7f2acc44b11745f4318dd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_roughness.jpg using Guid(fe81ad94c7f2acc44b11745f4318dd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b3747098f64e3416515b238f589841') in 0.019990 seconds 
-  Import took 0.027911 seconds .
+  Time since last request: 2.369133 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures
+  artifactKey: Guid(74abcee2e5780b243a3ce6f59e2e45b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures using Guid(74abcee2e5780b243a3ce6f59e2e45b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbccc933cc6fb3ea186d3b07a1c8929f') in 0.008828 seconds 
+  Import took 0.016486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_normal.jpg
-  artifactKey: Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_normal.jpg using Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221db1ab53a3ca35771231d1ca53c2f6') in 0.014521 seconds 
-  Import took 0.020760 seconds .
+  Time since last request: 0.086584 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_albedo.jpg
+  artifactKey: Guid(76146ff7d145b984d9e5879827be465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_albedo.jpg using Guid(76146ff7d145b984d9e5879827be465c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797c0f1b2d515693f6ee9242bfc43fb9') in 0.043801 seconds 
+  Import took 0.050777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.099914 seconds.
-  path: Assets/ThirdParty/Kanabo/New Material.mat
-  artifactKey: Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/New Material.mat using Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b557feea909d8fe4723d2c3a5088a96') in 0.037550 seconds 
-  Import took 0.061518 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_normal.png
+  artifactKey: Guid(0c4a4733de663624abcb4a61454989c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_normal.png using Guid(0c4a4733de663624abcb4a61454989c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c824b77a46172182aa004db040b55c8') in 0.021018 seconds 
+  Import took 0.028971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.165775 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo.mat
-  artifactKey: Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo.mat using Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355483a089de48a99d248bac9f0aa11a') in 0.011436 seconds 
-  Import took 0.034983 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_roughness.jpg
+  artifactKey: Guid(deef815c480a89b4fadd25b1a0fd54b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_roughness.jpg using Guid(deef815c480a89b4fadd25b1a0fd54b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4d0515c176bbea7162912b39ce0fb3') in 0.016238 seconds 
+  Import took 0.023392 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.655097 seconds.
-  path: Assets/ThirdParty/Kanabo/Mesh
-  artifactKey: Guid(e4267d6e806b306458e8c6e68a9ecb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Mesh using Guid(e4267d6e806b306458e8c6e68a9ecb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e1c83fd8830c45067312388a9332bf') in 0.006857 seconds 
-  Import took 0.014571 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_AO.jpg
+  artifactKey: Guid(b59cbb56576dc3f4cac3dda75dc4c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_AO.jpg using Guid(b59cbb56576dc3f4cac3dda75dc4c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ad4cf61ef8a0f6285dbd3552155418') in 0.024397 seconds 
+  Import took 0.032271 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.062800 seconds.
-  path: Assets/ThirdParty/Kanabo/Material
-  artifactKey: Guid(22d06c2126188a34a9cf32593d68b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Material using Guid(22d06c2126188a34a9cf32593d68b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06da2b5918abf2536f647130a3eb1947') in 0.006830 seconds 
-  Import took 0.014383 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_metallic.jpg
+  artifactKey: Guid(6ebed815a69198a42a98c5150ce1284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Oni_Mask/textures/Default_OBJ_metallic.jpg using Guid(6ebed815a69198a42a98c5150ce1284d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a459c2f6b0365a0f2900eab4715699') in 0.021047 seconds 
+  Import took 0.028500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.069228 seconds.
-  path: Assets/ThirdParty/Kanabo/Textures
-  artifactKey: Guid(cd25a3316144cef44b51b00b71dc41d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Textures using Guid(cd25a3316144cef44b51b00b71dc41d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6888e95680f8898bb8ab3e6f487fbce9') in 0.090417 seconds 
-  Import took 0.129522 seconds .
+  Time since last request: 4.593675 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Default QTE Atlas.png
+  artifactKey: Guid(55cedb0f46289194693d8f409d78e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Default QTE Atlas.png using Guid(55cedb0f46289194693d8f409d78e273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca93b0bda65daa9e2f039de081c08b1a') in 0.092309 seconds 
+  Import took 0.099976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.117152 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_metallic.jpg
-  artifactKey: Guid(70e8da736cb145c498dfac0e24e385d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_metallic.jpg using Guid(70e8da736cb145c498dfac0e24e385d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc59b2bc60c75bf957e1dfbc61c5de4') in 0.014935 seconds 
-  Import took 0.030966 seconds .
+  Time since last request: 228.561486 seconds.
+  path: Assets/DialogueSystem/Dialogue Database.asset
+  artifactKey: Guid(6dbb0f745b2482f4caa70702e41705d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DialogueSystem/Dialogue Database.asset using Guid(6dbb0f745b2482f4caa70702e41705d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4958f25f0196f6cd23f83bec02b3bfcf') in 0.018401 seconds 
+  Import took 0.026714 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_AO.jpg
-  artifactKey: Guid(f85f575af0db1e74c89d851faeaa8a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_AO.jpg using Guid(f85f575af0db1e74c89d851faeaa8a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f307e88ef26880d943dabe5e49f1891a') in 0.014693 seconds 
-  Import took 0.030643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_roughness.jpg
-  artifactKey: Guid(fe81ad94c7f2acc44b11745f4318dd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_roughness.jpg using Guid(fe81ad94c7f2acc44b11745f4318dd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4458035ef2fc3f8c70242c34ae24d72b') in 0.015783 seconds 
-  Import took 0.038661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_albedo.jpg
-  artifactKey: Guid(fc93c117d422048468b258239db5c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_albedo.jpg using Guid(fc93c117d422048468b258239db5c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c0b123280fca1217d40d106ae4bc73') in 0.014866 seconds 
-  Import took 0.033908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_normal.jpg
-  artifactKey: Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Kanabo_MAIN_SG_normal.jpg using Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc77f6f73c9d6f579f32853c01f66d4b') in 0.016146 seconds 
-  Import took 0.024919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.387955 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Blank.png
-  artifactKey: Guid(d90a2d7a4a84a15439fb9d36f7d41a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Blank.png using Guid(d90a2d7a4a84a15439fb9d36f7d41a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b381329d98b3a180a3b4e552e121fc4') in 0.148730 seconds 
-  Import took 0.194012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Hard Background.png
-  artifactKey: Guid(0fe180d56a536db45aca9b54c8c198f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Shared Textures/Hard Background.png using Guid(0fe180d56a536db45aca9b54c8c198f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7f23329ef3c9daf9fbee10d93da1b2') in 0.038087 seconds 
-  Import took 0.060424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.241743 seconds.
-  path: Assets/ThirdParty/Kanabo/Mesh/kanabo.fbx
-  artifactKey: Guid(2b99b84fc10e94a4e915e08285b0d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Mesh/kanabo.fbx using Guid(2b99b84fc10e94a4e915e08285b0d8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bf876f739dbd8c13d20ab0edb65d35') in 0.192270 seconds 
-  Import took 0.226503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.084174 seconds.
-  path: Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_normal.jpg
-  artifactKey: Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_normal.jpg using Guid(ecc6f6624e275a44da3ad55e7dd2be8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc1e5c8f26df6661c570a388df77a43') in 0.019101 seconds 
-  Import took 0.041305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.046172 seconds.
-  path: Assets/ThirdParty/Kanabo/Material/Kanabo.mat
-  artifactKey: Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Material/Kanabo.mat using Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96a9230c8a0ddc566448e5a2d91db46') in 0.049359 seconds 
-  Import took 0.056372 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008392 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1433ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1187ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (394ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3302 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.5 MB.
-System memory in use after: 146.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 4218.
-Total: 3.851300 ms (FindLiveObjects: 0.325000 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.341100 ms  DeleteObjects: 0.031200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 181.402048 seconds.
-  path: Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_albedo_bloody.jpg
-  artifactKey: Guid(dbb2f7c531f557a428e709ee305e0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_albedo_bloody.jpg using Guid(dbb2f7c531f557a428e709ee305e0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec82903df9e140930fe7aa84fb14c56c') in 0.064590 seconds 
-  Import took 0.093583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.012751 seconds.
-  path: Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_albedo_bloody.jpg
-  artifactKey: Guid(dbb2f7c531f557a428e709ee305e0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Textures/Kanabo_MAIN_SG_albedo_bloody.jpg using Guid(dbb2f7c531f557a428e709ee305e0f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ee87fff5897d163c7d0d794bcf90e') in 0.015807 seconds 
-  Import took 0.050690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.582520 seconds.
-  path: Assets/ThirdParty/Kanabo/Materials
-  artifactKey: Guid(22d06c2126188a34a9cf32593d68b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Materials using Guid(22d06c2126188a34a9cf32593d68b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9941824c3e44802f043b1c4303bc19f4') in 0.007697 seconds 
-  Import took 0.031394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.084003 seconds.
-  path: Assets/ThirdParty/Kanabo/Materials/Kanabo_bloody.mat
-  artifactKey: Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Kanabo/Materials/Kanabo_bloody.mat using Guid(d7008a5d11bf13242bfcc202073713b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5862bf5f99f8b488a5a01543fbe0d') in 0.178381 seconds 
-  Import took 0.212001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.369847 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/InfiltratorPistol.png
-  artifactKey: Guid(d898db3a1a254844b8497217d6591192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Recon Troop/Textures/InfiltratorPistol.png using Guid(d898db3a1a254844b8497217d6591192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f028208af14abfa53f48226634c81f') in 0.082088 seconds 
-  Import took 0.107016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/LargeDoorway_norm.png
-  artifactKey: Guid(a6e481b095181744bbe7becae65e591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/LargeDoorway_norm.png using Guid(a6e481b095181744bbe7becae65e591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6135d359c0c80feb3df437b699e58083') in 0.116070 seconds 
-  Import took 0.153764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png
-  artifactKey: Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png using Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c2ea5e2b884fe349c619e3f7e7e749') in 0.197360 seconds 
-  Import took 0.229446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/LargeDoorway.png
-  artifactKey: Guid(75b09da11fc5b594fadec1856f61a39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Art/Scifi Environment/Textures/LargeDoorway.png using Guid(75b09da11fc5b594fadec1856f61a39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e1d661628ba89fcfbbb88f67de79e6') in 0.065752 seconds 
-  Import took 0.078467 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
