@@ -10092,11 +10092,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -10108,13 +10108,17 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: (Take the crowbar)
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
         value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: EventGuid
+        value: b4539e7a-b94a-4f39-b921-984dac996db7
         type: 0
         typeString: 
       conversationID: 16
@@ -10899,6 +10903,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 33fe9d82-b200-431d-ba5e-62654866c9bb
+        type: 0
+        typeString: 
       conversationID: 17
       isRoot: 0
       isGroup: 0
@@ -10974,8 +10982,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.6700003
+    canvasScrollPosition: {x: 40.940918, y: 46.003937}
+    canvasZoom: 0.85000014
   syncInfo:
     syncActors: 0
     syncItems: 0
