@@ -350,6 +350,14 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   - id: 4
     fields:
     - title: Name
@@ -379,6 +387,14 @@ MonoBehaviour:
       typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
   - id: 5
@@ -411,6 +427,14 @@ MonoBehaviour:
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   - id: 6
     fields:
     - title: Name
@@ -439,6 +463,14 @@ MonoBehaviour:
       typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
   - id: 7
@@ -470,6 +502,14 @@ MonoBehaviour:
       typeString: CustomFieldType_QuestState
     - title: Is Item
       value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
   locations: []
@@ -1299,6 +1339,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      - title: EventGuid
         value: 
         type: 0
         typeString: 
@@ -2161,6 +2205,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 55d727b9-c850-4cea-ba64-3a106d5fdb89
+        type: 0
+        typeString: 
       conversationID: 1
       isRoot: 0
       isGroup: 0
@@ -2170,7 +2218,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Distract the cop", "success")
+      userScript: 'SetQuestState("Distract the cop", "success");
+
+        SetQuestState("Investigate
+        the crime scene", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2181,8 +2232,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 309.31393, y: 32.459366}
-    canvasZoom: 0.7000003
+    canvasScrollPosition: {x: 723.34546, y: 38.22822}
+    canvasZoom: 0.94000006
   - id: 2
     fields:
     - title: Title
@@ -2861,7 +2912,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: That's very generous of you. I can never turn down fresh ramen.
+        value: That's very generous of you. I can never turn down fresh ramen. (Starts
+          eating) Ugh..I need to use the bathroom quickly! Make sure nobody gets
+          through here while I'm gone!
         type: 0
         typeString: 
       - title: Sequence
@@ -2883,7 +2936,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: SetQuestState("Distract the cop", "success")
+      userScript: 'SetQuestState("Distract the cop", "success");
+
+        SetQuestState("Investigate
+        the crime scene", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -2943,8 +2999,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 23.922363, y: 17.780136}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 7.692322, y: 0}
+    canvasZoom: 0.9100001
   - id: 3
     fields:
     - title: Title
@@ -8792,7 +8848,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Distract the cop", "success")
+      userScript: 'SetQuestState("Distract the cop", "success");
+
+        SetQuestState("Investigate
+        the crime scene", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -8803,8 +8862,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 10.626597, y: 10.801954}
-    canvasZoom: 0.94000006
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.97
   - id: 13
     fields:
     - title: Title
