@@ -45,7 +45,7 @@ public class Distraction : MonoBehaviour
 
     void HandleMovement()
     {
-        //If the character is at the last point then able the cop's script, otherwise set
+        //If the character is at the last point then enable the cop's script, otherwise set
         //the current point index to the next point.
         if (currentPoint != destinationPoints.Length)
         {
