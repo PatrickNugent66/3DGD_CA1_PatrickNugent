@@ -3,11 +3,11 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Scenes/Apartment.unity
+- path: Assets/Scenes/Shoutengai.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/Shoutengai.unity
+- path: Assets/Scenes/Apartment.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
