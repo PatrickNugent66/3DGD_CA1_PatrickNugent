@@ -240,7 +240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: Handbag
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 5
   events:
     onSelect:
       m_PersistentCalls:
@@ -3037,6 +3037,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5156388c45a5a394dada0e40dcdd13b2, type: 3}
+--- !u!114 &587692398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1950257029453910777, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+  m_PrefabInstance: {fileID: 1950257028526914340}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &594621084
 GameObject:
   m_ObjectHideFlags: 0
@@ -5877,7 +5888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: Woman
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 5
   events:
     onSelect:
       m_PersistentCalls:
@@ -7754,7 +7765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: 
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 5
   events:
     onSelect:
       m_PersistentCalls:
@@ -10338,7 +10349,7 @@ MonoBehaviour:
   startConversationEntryID: -1
   exclusive: 0
   replace: 0
-  skipIfNoValidEntries: 0
+  skipIfNoValidEntries: 1
   stopConversationOnTriggerExit: 0
   stopConversationIfTooFar: 0
   maxConversationDistance: 5
@@ -10388,7 +10399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: Man
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 5
   events:
     onSelect:
       m_PersistentCalls:
@@ -10589,7 +10600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideName: Homeless man
   overrideUseMessage: 
-  maxUseDistance: 30
+  maxUseDistance: 5
   events:
     onSelect:
       m_PersistentCalls:
@@ -17919,6 +17930,74 @@ PrefabInstance:
     - target: {fileID: 1716396743555428257, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257027940284946, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: far clip plane
+      value: 180.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910778, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: maxSelectionDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 587692398}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 587692398}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ActivateInput
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: DeactivateInput
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.InputSystem.PlayerInput, Unity.InputSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.InputSystem.PlayerInput, Unity.InputSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationEnd.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1950257029453910779, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: conversationEvents.onConversationStart.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1950257029453910780, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
       propertyPath: m_ApplyRootMotion
