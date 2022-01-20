@@ -15,19 +15,12 @@ namespace MyGame
             //instanciate the waits used by start, play, or end functions
             InitializeWaits();
 
-            //STUDENTCODE - 1
-            //SpawnNPC();
-            //SpawnPickups();
-            //SpawnPlayers();
-            //SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
-
             //start the main loop that will perform start/end actions and check win/lose logic
             StartCoroutine(GameLoop());
         }
 
         protected override IEnumerator StartLevel()
         {
-            //ShowStartToast();   //e.g. "Get Ready!...5..4..3..2..1"
             SceneManager.UnloadScene("Menu");
             SceneManager.LoadScene("Apartment", LoadSceneMode.Additive);
             SceneManager.LoadScene("Street", LoadSceneMode.Additive);
@@ -54,13 +47,12 @@ namespace MyGame
         protected override IEnumerator EndLevel()
         {
             ShowWinLoseToast();   //e.g. "You won!"
-            //SaveGameData();       //e.g. asynchronously store using AssetDatabase, simple read/write XML to file, or network save
 
             //wait for N seconds to show the toast
             yield return endWait; //Timer
 
             //raise an event to show the main menu e.g. Event: MainMenu - Show
-            Debug.Log($"Goodbye at {Time.realtimeSinceStartup}");
+            
         }
     }
 }
