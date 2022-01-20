@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Street.unity
     guid: 743c42c8529669241843faf31a726d40
   - enabled: 1
-    path: Assets/Scenes/Shoutengai.unity
+    path: Assets/Scenes/Shotengai.unity
     guid: e4ccde53b0102344c804adc71a1c473a
   m_configObjects: {}

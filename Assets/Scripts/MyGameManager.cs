@@ -19,7 +19,7 @@ namespace MyGame
             //SpawnNPC();
             //SpawnPickups();
             //SpawnPlayers();
-            SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+            //SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
 
             //start the main loop that will perform start/end actions and check win/lose logic
             StartCoroutine(GameLoop());
@@ -27,7 +27,12 @@ namespace MyGame
 
         protected override IEnumerator StartLevel()
         {
-            ShowStartToast();   //e.g. "Get Ready!...5..4..3..2..1"
+            //ShowStartToast();   //e.g. "Get Ready!...5..4..3..2..1"
+            SceneManager.UnloadScene("Menu");
+            SceneManager.LoadScene("Apartment", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Street", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Shotengai", LoadSceneMode.Additive);
+
             yield return startWait;  //Timer
         }
 
