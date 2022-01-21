@@ -3169,7 +3169,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1754391866096308600, guid: 5156388c45a5a394dada0e40dcdd13b2, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967287
       objectReference: {fileID: 0}
     - target: {fileID: 4939637456539576938, guid: 5156388c45a5a394dada0e40dcdd13b2, type: 3}
       propertyPath: m_Name
@@ -3469,8 +3469,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1521755, y: 2.2229898, z: 1}
-  m_Center: {x: 0.01656884, y: 0.90286463, z: 1.341282e-17}
+  m_Size: {x: 2.4243002, y: 2.2229898, z: 1.2264729}
+  m_Center: {x: -0.023599863, y: 0.9028646, z: 0.11323643}
 --- !u!1 &672064557
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,7 +3577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1173814522494119295, guid: a94ef3855b3fd52479b4afdb5a9a566a, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967287
       objectReference: {fileID: 0}
     - target: {fileID: 1946094600058091461, guid: a94ef3855b3fd52479b4afdb5a9a566a, type: 3}
       propertyPath: m_RootOrder
@@ -7473,7 +7473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013284308776950333, guid: d8808f34818d7e24b9c2228731040083, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967287
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8808f34818d7e24b9c2228731040083, type: 3}
@@ -9315,7 +9315,7 @@ GameObject:
   m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967263
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1488420982
 BoxCollider:
@@ -10923,8 +10923,8 @@ GameObject:
   m_Name: Fence_01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967287
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1752795842
 Transform:
@@ -38883,7 +38883,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 4294967287
   m_IsActive: 1
 --- !u!1 &8317689552559777094
 GameObject:
