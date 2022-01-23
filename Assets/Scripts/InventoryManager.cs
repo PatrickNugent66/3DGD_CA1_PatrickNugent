@@ -6,7 +6,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     [SerializeField]
-    private List<PickupData> pickups;
+    public List<PickupData> pickups;
 
     [SerializeField]
     private ListPickupDataVariable listPickupDataVariable;

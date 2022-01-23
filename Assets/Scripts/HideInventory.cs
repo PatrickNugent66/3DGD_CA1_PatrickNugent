@@ -11,11 +11,11 @@ public class HideInventory : MonoBehaviour
     private GameObject MainUI;
 
     [SerializeField]
-    private GameObject Inventory;
+    private GameObject InventoryMenu;
 
     void OnEnable()
     {
         MainUI.SetActive(true);
-        Inventory.SetActive(false);
+        InventoryMenu.SetActive(false);
     }
 }
