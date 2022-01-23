@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LightsOut : MonoBehaviour
 {
+    [SerializeField]
     private GameObject lights;
 
     [SerializeField]
@@ -11,7 +12,6 @@ public class LightsOut : MonoBehaviour
 
     void Start()
     {
-        lights = GameObject.Find("/Shotengai/Lights");
         lights.SetActive(false);
         wall.SetActive(true);
     }
