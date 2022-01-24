@@ -12,7 +12,7 @@ public class PlayerPickupBehaviour : MonoBehaviour
     [SerializeField]
     private StringEvent stringEvent;
 
-    private void CollectPickup(GameObject collectedPickup)
+    public void CollectPickup(GameObject collectedPickup)
     {
         var pickup = collectedPickup.GetComponent<PickupBehaviour>();
         if (pickup != null)
