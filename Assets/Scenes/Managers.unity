@@ -9650,6 +9650,10 @@ PrefabInstance:
       propertyPath: m_Cameras.Array.data[0]
       value: 
       objectReference: {fileID: 2133874986}
+    - target: {fileID: 1950257029453910724, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
+      propertyPath: m_AngularDrag
+      value: 5.01
+      objectReference: {fileID: 0}
     - target: {fileID: 1950257029453910778, guid: ccfb0d3ac02024b408ca5f05c1cefb91, type: 3}
       propertyPath: maxSelectionDistance
       value: 5
