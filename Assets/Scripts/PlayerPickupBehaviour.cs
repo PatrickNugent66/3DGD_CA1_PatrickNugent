@@ -17,9 +17,8 @@ public class PlayerPickupBehaviour : MonoBehaviour
         var pickup = collectedPickup.GetComponent<PickupBehaviour>();
         if (pickup != null)
         {
-            ///stringEvent.Raise("Something amazing happened!!!");
             pickupEvent.Raise(pickup.PickupData);
-            //Destroy(other.gameObject);
+            this.GetComponent<AudioSource>().Play();
         }
     }
 }
