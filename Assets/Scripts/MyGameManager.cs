@@ -21,7 +21,7 @@ namespace MyGame
 
         protected override IEnumerator StartLevel()
         {
-            SceneManager.UnloadScene("Menu");
+            SceneManager.UnloadSceneAsync("Menu");
             SceneManager.LoadScene("Apartment", LoadSceneMode.Additive);
             SceneManager.LoadScene("Street", LoadSceneMode.Additive);
             SceneManager.LoadScene("Shotengai", LoadSceneMode.Additive);

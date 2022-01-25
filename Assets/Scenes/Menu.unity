@@ -1630,23 +1630,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '-You can click at a point on the ground to move there.
+  m_text: '-You can click at a point on the ground to move there. The A and D keys
+    can be used to rotate the camera.
 
 
-    -You can
-    use the mouse to hover over an NPC or item and press spacebar when the prompt
-    appears on top of the screen. This will allow you to interact with them.
+    -You can use the mouse to hover over
+    an NPC or item and press spacebar when the prompt appears on top of the screen.
+    This will allow you to interact with them.
 
 
-    -Interaction
-    can only be done if your character is within a certain distance of the NPC or
-    item. A yellow outline will appear when you hover over a nearby item to indicate
-    that it is selectable. Keep an eye out for important items lying about.
+    -Interaction can only be done
+    if your character is within a certain distance of the NPC or item. A yellow outline
+    will appear when you hover over a nearby item to indicate that it is selectable.
+    Keep an eye out for important items lying about.
 
 
-    -Your
-    inventory can be opened by pressing the button on the bottom left. Some quest
-    items are stored here.'
+    -Your inventory can be
+    opened by pressing the button on the bottom left. Some quest items are stored
+    here.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1673,8 +1674,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.7
-  m_fontSizeBase: 24.7
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
