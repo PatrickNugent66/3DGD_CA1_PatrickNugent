@@ -44,14 +44,15 @@ namespace MyGame
             //Debug.Log($"ShowWinLoseToast at {Time.realtimeSinceStartup}");
         }
 
-        protected override IEnumerator EndLevel()
+        public override IEnumerator EndLevel()
         {
-            ShowWinLoseToast();   //e.g. "You won!"
+            //ShowWinLoseToast();   //e.g. "You won!"
 
             //wait for N seconds to show the toast
             yield return endWait; //Timer
 
             //raise an event to show the main menu e.g. Event: MainMenu - Show
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             
         }
     }

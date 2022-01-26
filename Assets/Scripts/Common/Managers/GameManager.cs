@@ -153,6 +153,6 @@ namespace GD.Managers
         /// Perform operations to end level (e.g. serialize game state, take screenshot of level)
         /// </summary>
         /// <returns></returns>
-        protected abstract IEnumerator EndLevel();
+        public abstract IEnumerator EndLevel();
     }
 }
