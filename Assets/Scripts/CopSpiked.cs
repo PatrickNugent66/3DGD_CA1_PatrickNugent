@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.AI;
 using PixelCrushers.DialogueSystem;
 
+/// <summary>
+/// Moves the cop NPC along a path to carry out the
+/// spiked food scenario
+/// </summary>
 public class CopSpiked : MonoBehaviour
 {
     [SerializeField]

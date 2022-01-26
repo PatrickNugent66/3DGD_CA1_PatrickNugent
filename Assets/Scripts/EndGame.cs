@@ -9,23 +9,27 @@ using GD.Managers;
 public class EndGame : MonoBehaviour
 {
     [SerializeField]
-    private GameObject OniMask;
+    private GameObject oniMask;
 
     [SerializeField]
-    private GameObject Player;
+    private GameObject player;
 
     [SerializeField]
-    private GameObject EndingCamera;
+    private GameObject screamSound;
 
     [SerializeField]
-    private GameObject GameManager;
+    private GameObject endingCamera;
+
+    /*[SerializeField]
+    private GameObject gameManager;*/
 
     void Start()
     {
-        OniMask.SetActive(true);
-        Player.SetActive(false);
-        EndingCamera.SetActive(true);
+        oniMask.SetActive(true);
+        player.SetActive(false);
+        screamSound.SetActive(true);
+        endingCamera.SetActive(true);
 
-        StartCoroutine(GameManager.GetComponent<MyGame.MyGameManager>().EndLevel());
+        StartCoroutine(this.GetComponent<MyGame.MyGameManager>().EndLevel());
     }
 }

@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using PixelCrushers.DialogueSystem;
 
+/// <summary>
+/// Moves the homeless man NPC along a path to carry out the
+/// distraction scenario
+/// </summary>
 public class Distraction : MonoBehaviour
 {
     [SerializeField]

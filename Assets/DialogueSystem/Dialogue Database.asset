@@ -263,7 +263,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Find a way to distract the cop
+      value: Distract the cop
       type: 0
       typeString: 
     - title: Pictures
@@ -3249,15 +3249,15 @@ MonoBehaviour:
         destinationDialogueID: 16
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Distract the cop") == "unassigned" and
-        (CurrentQuestState("Question the locals") == "active")
+      conditionsString: CurrentQuestState("Question the locals") == "active" and
+        (CurrentQuestState("Distract the cop") == "unassigned")
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 248.6813
+        x: 247.4155
         y: 93.076904
         width: 160
         height: 30
@@ -11080,11 +11080,11 @@ MonoBehaviour:
     - title: Title
       value: Crate
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Description
       value: 
       type: 0
-      typeString: 
+      typeString: CustomFieldType_Text
     - title: Actor
       value: 1
       type: 5
@@ -11185,6 +11185,12 @@ MonoBehaviour:
         destinationDialogueID: 9
         isConnector: 0
         priority: 2
+      - originConversationID: 17
+        originDialogueID: 0
+        destinationConversationID: 17
+        destinationDialogueID: 13
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -11246,7 +11252,8 @@ MonoBehaviour:
         destinationDialogueID: 3
         isConnector: 0
         priority: 2
-      conditionsString: Variable["crateExamined"] == false
+      conditionsString: Variable["crateExamined"] == false and (CurrentQuestState("Investigate
+        the crime scene") == "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -11578,7 +11585,7 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: Variable["crateExamined"] == true and (Variable["crowbarTaken"]
-        == false)
+        == false) and (CurrentQuestState("Investigate the crime scene") == "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -11641,7 +11648,8 @@ MonoBehaviour:
         priority: 2
       conditionsString: Variable["crateExamined"] == true and (Variable["bodyExamined"]
         == true) and (Variable["maskExamined"] == true) and (Variable["kanaboExamined"]
-        == true)
+        == true) and (Variable["crowbarTaken"] == true) and (CurrentQuestState("Investigate
+        the crime scene") == "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -11698,14 +11706,14 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: Variable["crowbarTaken"] == true and (Variable["crateExamined"]
-        == true)
+        == true) and (CurrentQuestState("Investigate the crime scene") == "active")
       userScript: 
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 917.1424
+        x: 918.7049
         y: 70
         width: 160
         height: 30
@@ -11872,9 +11880,64 @@ MonoBehaviour:
         y: 346.42856
         width: 160
         height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 9
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Something isn't right. I want to get out of here.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 17
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 17
+        originDialogueID: 13
+        destinationConversationID: 17
+        destinationDialogueID: 3
+        isConnector: 0
+        priority: 2
+      conditionsString: CurrentQuestState("Investigate the crime scene") == "success"
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 226.49539
+        y: 67.990295
+        width: 160
+        height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.82000023
+    canvasZoom: 0.64000046
   - id: 18
     fields:
     - title: Title

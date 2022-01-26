@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/// <summary>
+/// Moves the cop NPC along a path to carry out the
+/// distraction scenario
+/// </summary>
 public class CopDistracted : MonoBehaviour
 {
     [SerializeField]
