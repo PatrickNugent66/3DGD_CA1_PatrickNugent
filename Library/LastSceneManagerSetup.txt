@@ -1,13 +1,13 @@
 sceneSetups:
-- path: Assets/Scenes/Street.unity
+- path: Assets/Scenes/Managers.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Scenes/Shotengai.unity
+- path: Assets/Scenes/Street.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
-- path: Assets/Scenes/Managers.unity
+- path: Assets/Scenes/Shotengai.unity
   isLoaded: 1
   isActive: 0
   isSubScene: 0
