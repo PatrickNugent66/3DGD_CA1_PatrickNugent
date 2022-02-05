@@ -8,14 +8,14 @@ using UnityEngine;
 public class HideInventory : MonoBehaviour
 {
     [SerializeField]
-    private GameObject MainUI;
+    private GameObject mainUI;
 
     [SerializeField]
-    private GameObject InventoryMenu;
+    private GameObject inventoryMenu;
 
     void OnEnable()
     {
-        MainUI.SetActive(true);
-        InventoryMenu.SetActive(false);
+        mainUI.SetActive(true);
+        inventoryMenu.SetActive(false);
     }
 }

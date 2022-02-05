@@ -8,14 +8,14 @@ using UnityEngine;
 public class HideHowToPlay : MonoBehaviour
 {
     [SerializeField]
-    private GameObject MainMenu;
+    private GameObject mainMenu;
 
     [SerializeField]
-    private GameObject HowToPlayText;
+    private GameObject howToPlayText;
 
     void OnEnable()
     {
-        MainMenu.SetActive(true);
-        HowToPlayText.SetActive(false);
+        mainMenu.SetActive(true);
+        howToPlayText.SetActive(false);
     }
 }

@@ -2,6 +2,7 @@ using GD.Managers;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using PixelCrushers.DialogueSystem;
 
 namespace MyGame
 {
@@ -27,6 +28,8 @@ namespace MyGame
             SceneManager.LoadScene("Shotengai", LoadSceneMode.Additive);
 
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("Managers"));
+
+            QuestLog.SetQuestState("Question the locals", QuestState.Active);
 
             yield return startWait;  //Timer
         }
@@ -55,7 +58,6 @@ namespace MyGame
 
             //raise an event to show the main menu e.g. Event: MainMenu - Show
             SceneManager.LoadScene("Menu", LoadSceneMode.Single);
-            
         }
     }
 }

@@ -10,15 +10,15 @@ using UnityEngine.SceneManagement;
 public class StartGame : MonoBehaviour
 {
     [SerializeField]
-    private GameObject MainMenu;
+    private GameObject mainMenu;
 
     [SerializeField]
-    private GameObject IntroText;
+    private GameObject introText;
 
     void Start()
     {
-        MainMenu.SetActive(false);
-        IntroText.SetActive(true);
+        mainMenu.SetActive(false);
+        introText.SetActive(true);
         StartCoroutine(OpenLevel());
     }
 

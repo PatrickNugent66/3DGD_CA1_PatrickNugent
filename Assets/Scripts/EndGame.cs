@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using GD.Managers;
+using PixelCrushers.DialogueSystem;
 
 /// <summary>
 /// Handles the ending scene and ends the game
@@ -20,15 +21,16 @@ public class EndGame : MonoBehaviour
     [SerializeField]
     private GameObject endingCamera;
 
-    /*[SerializeField]
-    private GameObject gameManager;*/
-
     void Start()
     {
         oniMask.SetActive(true);
         player.SetActive(false);
         screamSound.SetActive(true);
         endingCamera.SetActive(true);
+
+        DialogueManager.ResetDatabase();
+
+        QuestLog.SetQuestState("Question the locals", QuestState.Unassigned);
 
         StartCoroutine(this.GetComponent<MyGame.MyGameManager>().EndLevel());
     }

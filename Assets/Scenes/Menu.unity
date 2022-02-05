@@ -1631,23 +1631,23 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: '-You can click at a point on the ground to move there. The A and D keys
-    can be used to rotate the camera.
+    can be used to rotate the camera. The P key pauses the game.
 
 
-    -You can use the mouse to hover over
-    an NPC or item and press spacebar when the prompt appears on top of the screen.
-    This will allow you to interact with them.
+    -You can use
+    the mouse to hover over an NPC or item and press spacebar when the prompt appears
+    on top of the screen. This will allow you to interact with them.
 
 
-    -Interaction can only be done
-    if your character is within a certain distance of the NPC or item. A yellow outline
-    will appear when you hover over a nearby item to indicate that it is selectable.
-    Keep an eye out for important items lying about.
+    -Interaction
+    can only be done if your character is within a certain distance of the NPC or
+    item. A yellow outline will appear when you hover over a nearby item to indicate
+    that it is selectable. Keep an eye out for important items lying about.
 
 
-    -Your inventory can be
-    opened by pressing the button on the bottom left. Some quest items are stored
-    here.'
+    -Your
+    inventory can be opened by pressing the button on the bottom left. Some quest
+    items are stored here.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3152,8 +3152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73bf78efc5082fb4686b082b85465723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: {fileID: 1906863085}
-  IntroText: {fileID: 535634531}
+  mainMenu: {fileID: 1906863085}
+  introText: {fileID: 535634531}
 --- !u!114 &1937801319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3166,8 +3166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67f81b2977794a479ab1c2ef16aee6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: {fileID: 1906863085}
-  HowToPlayText: {fileID: 1344422880}
+  mainMenu: {fileID: 1906863085}
+  howToPlayText: {fileID: 1344422880}
 --- !u!114 &1937801320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3180,8 +3180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9259f99b1c508894da744824dd558fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: {fileID: 1906863085}
-  HowToPlayText: {fileID: 1344422880}
+  mainMenu: {fileID: 1906863085}
+  howToPlayText: {fileID: 1344422880}
 --- !u!1 &1948708269
 GameObject:
   m_ObjectHideFlags: 0

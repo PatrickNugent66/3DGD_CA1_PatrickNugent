@@ -8,14 +8,14 @@ using UnityEngine;
 public class ShowHowToPlay : MonoBehaviour
 {
     [SerializeField]
-    private GameObject MainMenu;
+    private GameObject mainMenu;
 
     [SerializeField]
-    private GameObject HowToPlayText;
+    private GameObject howToPlayText;
 
     void OnEnable()
     {
-        MainMenu.SetActive(false);
-        HowToPlayText.SetActive(true);
+        mainMenu.SetActive(false);
+        howToPlayText.SetActive(true);
     }
 }
