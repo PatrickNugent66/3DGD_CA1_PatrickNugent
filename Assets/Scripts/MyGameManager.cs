@@ -26,6 +26,8 @@ namespace MyGame
             SceneManager.LoadScene("Apartment", LoadSceneMode.Additive);
             SceneManager.LoadScene("Shotengai", LoadSceneMode.Additive);
 
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName("Managers"));
+
             yield return startWait;  //Timer
         }
 

@@ -188,6 +188,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a300b975f5fcf54ea7320850a4a48dc, type: 3}
+--- !u!1 &110395161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a300b975f5fcf54ea7320850a4a48dc, type: 3}
+  m_PrefabInstance: {fileID: 110395160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &110395162 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 1a300b975f5fcf54ea7320850a4a48dc, type: 3}
+  m_PrefabInstance: {fileID: 110395160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &110395163
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110395161}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.75000006, z: 0.07999968}
+  m_Size: 1.5
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.11098257
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 110395162}
+  m_Enabled: 1
 --- !u!1 &368676639
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +406,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471351771}
   m_Mesh: {fileID: -326634260082239009, guid: f06c4d5413bda5d4a90ad95b97d6642d, type: 3}
+--- !u!1 &382562682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2e5b2603daec64948a183c78b5a14b04, type: 3}
+  m_PrefabInstance: {fileID: 382562677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &382562683 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2300000, guid: 2e5b2603daec64948a183c78b5a14b04, type: 3}
+  m_PrefabInstance: {fileID: 382562677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &382562684
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382562682}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.34999993, z: 0}
+  m_Size: 3.5657823
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.14017592
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 382562683}
+  m_Enabled: 1
 --- !u!1 &414934954
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +759,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+--- !u!1 &951199394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+  m_PrefabInstance: {fileID: 951199393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &951199395 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -745811864070240421, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+  m_PrefabInstance: {fileID: 951199393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &951199396
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951199394}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 18.94265, z: 0}
+  m_Size: 37.6939
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07243686
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 951199395}
+  m_Enabled: 1
 --- !u!1 &967276568
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +895,7 @@ GameObject:
   - component: {fileID: 1007970145}
   - component: {fileID: 1007970144}
   - component: {fileID: 1007970143}
+  - component: {fileID: 1007970146}
   m_Layer: 0
   m_Name: Internal_Door (1)
   m_TagString: Untagged
@@ -891,6 +979,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007970141}
   m_Mesh: {fileID: -326634260082239009, guid: f06c4d5413bda5d4a90ad95b97d6642d, type: 3}
+--- !u!205 &1007970146
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007970141}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.5475571, y: 1.0379966, z: -0.01994307}
+  m_Size: 2.0759933
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.28233227
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1007970144}
+  m_Enabled: 1
 --- !u!1 &1045729205
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,6 +1524,7 @@ GameObject:
   - component: {fileID: 382562681}
   - component: {fileID: 382562680}
   - component: {fileID: 382562679}
+  - component: {fileID: 1471351772}
   m_Layer: 0
   m_Name: Internal_Door (2)
   m_TagString: Untagged
@@ -1424,6 +1532,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!205 &1471351772
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471351771}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.5475571, y: 1.0379966, z: -0.01994307}
+  m_Size: 2.0759933
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.30354846
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 382562680}
+  m_Enabled: 1
 --- !u!1001 &1572369347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1501,6 +1628,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+--- !u!1 &1572369348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+  m_PrefabInstance: {fileID: 1572369347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1572369349 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -745811864070240421, guid: 875f51fa04c549a4fb44d3a45f5ca2a6, type: 3}
+  m_PrefabInstance: {fileID: 1572369347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &1572369350
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572369348}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 18.94265, z: 0}
+  m_Size: 37.6939
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.084255084
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1572369349}
+  m_Enabled: 1
 --- !u!1 &1715276069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,6 +2074,7 @@ GameObject:
   - component: {fileID: 9063831484075788864}
   - component: {fileID: 2397771670372843852}
   - component: {fileID: 1811651474260376266}
+  - component: {fileID: 1843362319608921501}
   m_Layer: 0
   m_Name: Internal_Door
   m_TagString: Untagged
@@ -1925,6 +2082,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!205 &1843362319608921501
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843362319608921500}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.5475569, y: 1.0379966, z: -0.019943058}
+  m_Size: 2.0759933
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.24027129
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2397771670372843852}
+  m_Enabled: 1
 --- !u!23 &2397771670372843852
 MeshRenderer:
   m_ObjectHideFlags: 0

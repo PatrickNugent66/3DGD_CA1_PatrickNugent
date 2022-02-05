@@ -31,6 +31,12 @@ public class ShowInventory : MonoBehaviour
     [SerializeField]
     private GameObject Crowbar;
 
+    [SerializeField]
+    private GameObject Sushi;
+
+    [SerializeField]
+    private GameObject Ramen;
+
     void OnEnable()
     {
         MainUI.SetActive(false);
@@ -44,6 +50,8 @@ public class ShowInventory : MonoBehaviour
         Money.SetActive(false);
         Radio.SetActive(false);
         Crowbar.SetActive(false);
+        Sushi.SetActive(false);
+        Ramen.SetActive(false);
 
         if (pickups.Count > 0)
         {
@@ -66,6 +74,14 @@ public class ShowInventory : MonoBehaviour
                 else if (pickups[i].name == "crowbar")
                 {
                     Crowbar.SetActive(true);
+                }
+                else if (pickups[i].name == "sushi")
+                {
+                    Sushi.SetActive(true);
+                }
+                else if (pickups[i].name == "ramen")
+                {
+                    Ramen.SetActive(true);
                 }
             }
         }

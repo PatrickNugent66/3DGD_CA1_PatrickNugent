@@ -59,24 +59,24 @@ public class SpawnCivilian : MonoBehaviour
 
         if (positionNumber == 1)
         {
-            civilianInstance.transform.position = new Vector3(124.9f, -0.2f, 88f);
+            civilianInstance.transform.position = new Vector3(124.9f, 0f, 88f);
             civilianInstance.transform.rotation = Quaternion.Euler(0, 180, 0);
             civilianInstance.GetComponent<CivilianBehaviour>().destinationPoint = destinationPoints[1];
         }
         else if (positionNumber == 2)
         {
-            civilianInstance.transform.position = new Vector3(124.77f, -0.2f, 60.49f);
+            civilianInstance.transform.position = new Vector3(124.77f, 0f, 60.49f);
             civilianInstance.GetComponent<CivilianBehaviour>().destinationPoint = destinationPoints[0];
         }
         else if (positionNumber == 3)
         {
-            civilianInstance.transform.position = new Vector3(117.83f, -0.2f, 88f);
+            civilianInstance.transform.position = new Vector3(117.83f, 0f, 88f);
             civilianInstance.transform.rotation = Quaternion.Euler(0, 180, 0);
             civilianInstance.GetComponent<CivilianBehaviour>().destinationPoint = destinationPoints[3];
         }
         else
         {
-            civilianInstance.transform.position = new Vector3(118.14f, -0.2f, 60.49f);
+            civilianInstance.transform.position = new Vector3(118.14f, 0f, 60.49f);
             civilianInstance.GetComponent<CivilianBehaviour>().destinationPoint = destinationPoints[2];
         }
 

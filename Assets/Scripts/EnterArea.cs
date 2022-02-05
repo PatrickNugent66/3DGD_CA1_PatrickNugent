@@ -31,7 +31,7 @@ public class EnterArea : MonoBehaviour
             other.gameObject.GetComponent<BoxCollider>().enabled = false;
             other.gameObject.GetComponent<NavMeshAgent>().enabled = false;
 
-            other.transform.position = new Vector3(105.269f, 0.249f, 76.661f);
+            other.transform.position = new Vector3(105.269f, 0.249f, 75f);
 
             StartCoroutine(EnableComponents(other.gameObject));
         }

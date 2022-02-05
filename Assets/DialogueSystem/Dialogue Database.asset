@@ -4171,6 +4171,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 19a0bb34-2b03-42b3-933e-d63c4b23da50
+        type: 0
+        typeString: 
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -4234,7 +4238,7 @@ MonoBehaviour:
         destinationDialogueID: 16
         isConnector: 0
         priority: 2
-      conditionsString: CurrentQuestState("Find a way to distract the cop") == "active"
+      conditionsString: CurrentQuestState("Distract the cop") == "active"
       userScript: 
       onExecute:
         m_PersistentCalls:
@@ -4441,6 +4445,10 @@ MonoBehaviour:
         value: 
         type: 0
         typeString: 
+      - title: EventGuid
+        value: 4940d616-726b-41ff-9c21-95d39252a34f
+        type: 0
+        typeString: 
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -4506,7 +4514,7 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: SetQuestState("Spike some food", "active")
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -4625,7 +4633,7 @@ MonoBehaviour:
         height: 30
     entryGroups: []
     canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.9100001
+    canvasZoom: 0.4000004
   - id: 4
     fields:
     - title: Title
